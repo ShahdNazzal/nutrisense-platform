@@ -1,0 +1,36 @@
+{
+  "test_name": "Blood Test",
+  "result": "Normal",
+  "recommendation": "Maintain current diet and hydration",
+  "confidence": 0.92,
+  "findings": [
+    {
+      "type": "Blood Test",
+      "value": "Normal",
+      "confidence": 0.95
+    },
+    {
+      "type": "Glucose Level",
+      "value": "95 mg/dL",
+      "confidence": 0.93,
+      "range": "Normal (70-100 mg/dL)"
+    },
+    {
+      "type": "Cholesterol",
+      "value": "180 mg/dL",
+      "confidence": 0.91,
+      "range": "Desirable (<200 mg/dL)"
+    },
+    {
+      "type": "Hemoglobin",
+      "value": "14.5 g/dL",
+      "confidence": 0.94,
+      "range": "Normal (13.5-17.5 g/dL)"
+    }
+  ],
+  "recommendations": [
+    "Your test results are within normal ranges",
+    "Continue maintaining a balanced diet",
+    "Regular exercise recommended"
+  ]
+}

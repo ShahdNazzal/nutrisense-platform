@@ -1,0 +1,26 @@
+[
+  {
+    "user": "What should I eat today?",
+    "bot": "Include more vegetables and protein."
+  },
+  {
+    "user": "How is my health status?",
+    "bot": "Your vitals are stable. Keep tracking daily."
+  },
+  {
+    "user": "What foods are good for pregnancy?",
+    "bot": "Focus on folate-rich foods like leafy greens, fortified cereals, and beans. Also ensure adequate calcium, iron, and omega-3 intake."
+  },
+  {
+    "user": "How much protein do athletes need?",
+    "bot": "Athletes typically need 1.6-2.2g of protein per kg of body weight daily, depending on training intensity."
+  },
+  {
+    "user": "Can you help me lose weight?",
+    "bot": "Healthy weight loss involves creating a moderate calorie deficit, focusing on whole foods, and regular physical activity. Aim for 0.5-1kg per week."
+  },
+  {
+    "user": "What's a balanced diet?",
+    "bot": "A balanced diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Aim for colorful plates!"
+  }
+]
