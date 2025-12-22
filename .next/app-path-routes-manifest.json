@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/ml/analyze-image/route": "/api/ml/analyze-image",
+  "/api/ml/chatbot/route": "/api/ml/chatbot",
+  "/api/ml/predict-health/route": "/api/ml/predict-health",
+  "/appointments/book/page": "/appointments/book",
+  "/appointments/page": "/appointments",
+  "/athletes/page": "/athletes",
+  "/athletes/setup/page": "/athletes/setup",
+  "/auth/login/page": "/auth/login",
+  "/auth/register/page": "/auth/register",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/upload/page": "/dashboard/upload",
+  "/meal-plans/page": "/meal-plans",
+  "/messages/new/page": "/messages/new",
+  "/messages/page": "/messages",
+  "/page": "/",
+  "/pregnancy/page": "/pregnancy",
+  "/pregnancy/setup/page": "/pregnancy/setup"
+}

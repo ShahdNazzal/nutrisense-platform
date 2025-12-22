@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/ml/analyze-image",
+      "regex": "^/api/ml/analyze\\-image(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ml/analyze\\-image(?:/)?$"
+    },
+    {
+      "page": "/api/ml/chatbot",
+      "regex": "^/api/ml/chatbot(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ml/chatbot(?:/)?$"
+    },
+    {
+      "page": "/api/ml/predict-health",
+      "regex": "^/api/ml/predict\\-health(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/ml/predict\\-health(?:/)?$"
+    },
+    {
+      "page": "/appointments",
+      "regex": "^/appointments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments(?:/)?$"
+    },
+    {
+      "page": "/appointments/book",
+      "regex": "^/appointments/book(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/book(?:/)?$"
+    },
+    {
+      "page": "/athletes",
+      "regex": "^/athletes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/athletes(?:/)?$"
+    },
+    {
+      "page": "/athletes/setup",
+      "regex": "^/athletes/setup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/athletes/setup(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/register",
+      "regex": "^/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/register(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/upload",
+      "regex": "^/dashboard/upload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/upload(?:/)?$"
+    },
+    {
+      "page": "/meal-plans",
+      "regex": "^/meal\\-plans(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meal\\-plans(?:/)?$"
+    },
+    {
+      "page": "/messages",
+      "regex": "^/messages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/messages(?:/)?$"
+    },
+    {
+      "page": "/messages/new",
+      "regex": "^/messages/new(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/messages/new(?:/)?$"
+    },
+    {
+      "page": "/pregnancy",
+      "regex": "^/pregnancy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pregnancy(?:/)?$"
+    },
+    {
+      "page": "/pregnancy/setup",
+      "regex": "^/pregnancy/setup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pregnancy/setup(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

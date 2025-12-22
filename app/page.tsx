@@ -1,50 +1,31 @@
-import Link from "next/link"
+"use client"
+import { useEffect } from "react"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Activity, Apple, Baby, MessageSquare, Calendar, TrendingUp } from "lucide-react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Upload, Brain,Apple, Baby, TrendingUp, Heart, Shield, MessageSquare, Activity, Calendar } from "lucide-react"
+import Link from "next/link"
+
 
 export default function HomePage() {
+  useEffect(() => {
+    console.log("[v0] Homepage loaded successfully")
+  }, [])
+
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border bg-card">
-        <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <div className="flex items-center gap-2">
-            <Activity className="h-6 w-6 text-primary" />
-            <span className="text-xl font-semibold">NutriSense</span>
-          </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Features
-            </Link>
-            <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              About
-            </Link>
-            <Link href="#doctors" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Our Doctors
-            </Link>
-          </nav>
-          <div className="flex items-center gap-3">
-            <Link href="/auth/login">
-              <Button variant="ghost">Log in</Button>
-            </Link>
-            <Link href="/auth/register">
-              <Button>Get Started</Button>
-            </Link>
-          </div>
-        </div>
-      </header>
+    <div className="min-h-screen">
+      <Header />
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-b from-accent/20 to-background py-20 md:py-32">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              Professional Health & Nutrition Platform
+          <div className="mx-auto max-w-4xl text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl md:text-6xl lg:text-7xl">
+              Everything You Need for Wellness
             </h1>
-            <p className="mt-6 text-pretty text-lg text-muted-foreground leading-relaxed">
-              Comprehensive nutrition management for pregnancy care, athletic performance, and personalized medical
-              guidance. Connect with certified nutritionists and track your health journey with precision.
+            <p className="mt-6 text-lg text-muted-foreground text-balance leading-relaxed md:text-xl">
+              Comprehensive tools to understand and improve your health naturally
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/auth/register">
@@ -62,7 +43,187 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Features Section */}
+      <section id="features" className="py-20 md:py-32">
+        <div className="container mx-auto px-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Upload className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Easy Upload</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Simply photograph your lab results. Our AI extracts and analyzes all values instantly.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Brain className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">AI Analysis</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Advanced AI identifies health concerns and provides clear, jargon-free explanations.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <TrendingUp className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Health Timeline</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Track all your lab results over time and see trends in your health markers.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Heart className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Personalized Plans</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Get customized diet, exercise, and wellness plans based on your health profile.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Baby className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Pregnancy Care</CardTitle>
+              </CardHeader>
+              
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Specialized nutrition plans for expectant mothers. Track trimester progress, manage dietary needs, and ensure optimal health for you and your baby.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Shield className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Privacy First</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Your health data stays secure. All analysis runs locally with no external APIs.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Activity className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Daily Tracking</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Monitor your habits, symptoms, and progress with intuitive daily logs.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Calendar className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Smart Reminders</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Never miss important health activities with personalized scheduling.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <TrendingUp className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Athletes & Fitness</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Performance-focused nutrition tracking. Monitor macros, optimize recovery, and achieve your athletic goals with data-driven insights.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <MessageSquare className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Doctor Communication</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Secure messaging with certified nutritionists. Get personalized advice, ask questions, and receive
+                    professional guidance anytime.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Apple className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Meal Planning</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Custom meal plans tailored to your goals. Track food intake, analyze nutrition, and get personalized
+                  recommendations.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Calendar className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle className="mt-4">Appointment Booking</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Easy scheduling with healthcare providers. Book consultations, manage appointments, and never miss a
+                  check-up.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -85,105 +246,117 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      
 
-      {/* Features Section */}
-      <section id="features" className="py-20">
+      {/* Natural Wellness Section */}
+      <section className="py-20 md:py-32 bg-gradient-to-br from-accent/30 via-background to-accent/20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold">Comprehensive Health Solutions</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
-              Everything you need to manage your nutrition and health in one platform
+          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center max-w-7xl mx-auto">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-card shadow-lg border-2 border-primary/10">
+              <img
+                src="/medicine-bottles-pills-supplements-vitamins.jpg"
+                alt="Medicine bottles, pills, supplements and vitamins"
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            
+
+            <div className="space-y-6">
+              <h2 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">
+                Natural Wellness Solutions
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Our AI analyzes your lab results and provides personalized lifestyle recommendations focused on natural
+                healing through diet, exercise, and stress management—no prescriptions needed.
+              </p>
+              <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                  <Activity className="h-5 w-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2">Holistic Approach</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Focus on lifestyle changes, not medications
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section id="how-it-works" className="py-20 md:py-32">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-2xl text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">How It Works</h2>
+            <p className="mt-4 text-lg text-muted-foreground text-balance">
+              Three simple steps to better health understanding
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-primary/10 p-3 mb-4">
-                    <Baby className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Pregnancy Care</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Specialized nutrition plans for expectant mothers. Track trimester progress, manage dietary needs,
-                    and ensure optimal health for you and your baby.
-                  </p>
+          <div className="grid gap-8 md:grid-cols-3 max-w-7xl mx-auto">
+            <Card className="relative overflow-hidden border-2">
+              <div className="absolute top-6 left-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-3xl font-bold text-primary">
+                1
+              </div>
+              <CardHeader className="pt-28">
+                <div className="aspect-video overflow-hidden rounded-lg bg-muted mb-4">
+                  <img
+                    src="/person-photographing-medical-lab-results.jpg"
+                    alt="Upload medical results"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
+                <CardTitle>Upload</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Take a photo of your medical test results or upload existing images
+                </CardDescription>
               </CardContent>
             </Card>
 
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-accent/10 p-3 mb-4">
-                    <TrendingUp className="h-6 w-6 text-accent" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Athletes & Fitness</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Performance-focused nutrition tracking. Monitor macros, optimize recovery, and achieve your athletic
-                    goals with data-driven insights.
-                  </p>
+            <Card className="relative overflow-hidden border-2">
+              <div className="absolute top-6 left-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-3xl font-bold text-primary">
+                2
+              </div>
+              <CardHeader className="pt-28">
+                <div className="aspect-video overflow-hidden rounded-lg bg-muted mb-4">
+                  <img
+                    src="/medical-data-analytics-dashboard-with-charts.jpg"
+                    alt="AI analyzes results"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
+                <CardTitle>Analyze</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Our AI processes your results and identifies potential health concerns
+                </CardDescription>
               </CardContent>
             </Card>
 
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-secondary/10 p-3 mb-4">
-                    <MessageSquare className="h-6 w-6 text-secondary" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Doctor Communication</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Secure messaging with certified nutritionists. Get personalized advice, ask questions, and receive
-                    professional guidance anytime.
-                  </p>
+            <Card className="relative overflow-hidden border-2">
+              <div className="absolute top-6 left-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-3xl font-bold text-primary">
+                3
+              </div>
+              <CardHeader className="pt-28">
+                <div className="aspect-video overflow-hidden rounded-lg bg-muted mb-4">
+                  <img
+                    src="/person-doing-yoga-exercise-wellness.jpg"
+                    alt="Improve your health"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-chart-3/10 p-3 mb-4">
-                    <Apple className="h-6 w-6 text-chart-3" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Meal Planning</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Custom meal plans tailored to your goals. Track food intake, analyze nutrition, and get personalized
-                    recommendations.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-chart-4/10 p-3 mb-4">
-                    <Calendar className="h-6 w-6 text-chart-4" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Appointment Booking</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Easy scheduling with healthcare providers. Book consultations, manage appointments, and never miss a
-                    check-up.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
-                  <div className="rounded-full bg-chart-5/10 p-3 mb-4">
-                    <Activity className="h-6 w-6 text-chart-5" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Health Tracking</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Monitor BMI, weight, blood pressure, and more. Visualize your health trends with comprehensive
-                    analytics and reports.
-                  </p>
-                </div>
+                <CardTitle>Improve</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="leading-relaxed">
+                  Follow personalized nutrition and lifestyle plans to optimize your health
+                </CardDescription>
               </CardContent>
             </Card>
           </div>
@@ -205,83 +378,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border bg-card py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Activity className="h-5 w-5 text-primary" />
-                <span className="font-semibold">NutriSense</span>
-              </div>
-              <p className="text-sm text-muted-foreground">Professional health and nutrition management platform.</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Platform</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Features
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Pricing
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    FAQ
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Privacy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Terms
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-foreground transition-colors">
-                    Security
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            © 2025 NutriSense. All rights reserved.
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

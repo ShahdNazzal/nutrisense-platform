@@ -1,0 +1,3 @@
+{
+  "/api/ml/analyze-image/route": "app/api/ml/analyze-image/route.js"
+}

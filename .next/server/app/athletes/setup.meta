@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/athletes/layout,_N_T_/athletes/setup/layout,_N_T_/athletes/setup/page,_N_T_/athletes/setup"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/athletes/setup/__PAGE__",
+    "/athletes/setup",
+    "/athletes",
+    "/_index",
+    "/_head"
+  ]
+}
