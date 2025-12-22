@@ -31,41 +31,50 @@ export function Header() {
             <span>NutriSense</span>
           </Link>
 
-          {/* Desktop Nav */}
-          
-            <Link href="/" className="text-sm font-medium hover:text-primary">
+
+
+        <Link href="/" className="text-sm font-medium hover:text-primary">
               Home
             </Link>
+
+        <Link href="#features" className="text-sm font-medium hover:text-primary">
+              Features
+            </Link>
+            <Link href="#how-it-works" className="text-sm font-medium hover:text-primary">
+              How It Works
+            </Link>
+
+          {/* Desktop Nav */}
+          
+
+
             <Link href="/pregnancy/setup" className="text-sm font-medium hover:text-primary">
               Pregnancy
             </Link>
             <Link href="/components/fitness" className="text-sm font-medium hover:text-primary">
               Fitness
             </Link>
-            <Link href="#features" className="text-sm font-medium hover:text-primary">
-              Features
-            </Link>
-            <Link href="#how-it-works" className="text-sm font-medium hover:text-primary">
-              How It Works
-            </Link>
+            
             <Link href="/chat" className="text-sm font-medium hover:text-primary">
               Chat
             </Link>
             <Link href="/analysis" className="text-sm font-medium hover:text-primary">
               Analysis
             </Link>
-            <nav className="hidden md:flex items-center gap-6">
-            <Link href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Features
-            </Link>
-            <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              About
-            </Link>
-            <Link href="#doctors" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Our Doctors
-            </Link>
-          
+            
+            <nav className="hidden md:flex items-center gap-6">  
+            
+            <Link
+  href="#doctors"
+  className="text-sm font-medium text-foreground hover:text-foreground transition-colors"
+>
+  Our Doctors
+</Link>
+
+
           </nav>
+    
+
 
           {/* User Section */}
           <div className="hidden md:flex items-center gap-4">
@@ -109,7 +118,7 @@ export function Header() {
               <Link href="/fitness">Fitness</Link>
               <Link href="/analysis">Analysis</Link>
               <Link href="/chat">Chat</Link>
-
+              <Link href="/chat">Our Doctors</Link>
               <div className="pt-4 border-t">
                 {user ? (
                   <>

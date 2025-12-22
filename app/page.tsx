@@ -1,17 +1,44 @@
 "use client"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Upload, Brain,Apple, Baby, TrendingUp, Heart, Shield, MessageSquare, Activity, Calendar } from "lucide-react"
 import Link from "next/link"
-
+import { createClient } from "@/lib/supabase/client"
+import type { User } from "@supabase/supabase-js"
+import { useRouter } from "next/navigation"
 
 export default function HomePage() {
+const supabase = createClient()
+const [redirectPath, setRedirectPath] = useState("/auth/register")
+const [user, setUser] = useState<User | null>(null)
+const router = useRouter()
+
+
   useEffect(() => {
-    console.log("[v0] Homepage loaded successfully")
+    // الحالة الحالية
+    supabase.auth.getUser().then(({ data }) => {
+      setUser(data.user)
+    })
+
+    // نسمع لأي تغيير (login / logout)
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null)
+    })
+
+    return () => subscription.unsubscribe()
   }, [])
+
+
+
+
+
+
+
 
   return (
     <div className="min-h-screen">
@@ -29,9 +56,24 @@ export default function HomePage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/auth/register">
-                <Button size="lg" className="w-full sm:w-auto">
-                  Start Your Journey
-                </Button>
+                
+
+              <Button
+                size="lg"
+                className="w-full sm:w-auto"
+                onClick={() => window.location.href = redirectPath}
+              >Start Your Journey
+              </Button>
+
+
+
+
+              
+      
+
+
+
+
               </Link>
               <Link href="#features">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">

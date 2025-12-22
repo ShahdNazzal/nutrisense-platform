@@ -2,7 +2,7 @@ var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/dashboard/p
 R.c("server/chunks/ssr/node_modules_next_efa4fa14._.js")
 R.c("server/chunks/ssr/node_modules_@supabase_auth-js_dist_module_ca04f287._.js")
 R.c("server/chunks/ssr/node_modules_tailwind-merge_dist_bundle-mjs_mjs_c4cc2bc2._.js")
-R.c("server/chunks/ssr/node_modules_3a023f7e._.js")
+R.c("server/chunks/ssr/node_modules_6d0fd1b5._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__12bb6fd1._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_3b4d20e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")

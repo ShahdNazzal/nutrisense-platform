@@ -78,6 +78,10 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} NutriSense. All rights reserved.</p>
         </div>
+
+        <p className="text-sm text-muted-foreground , text-center mt-4">
+          Made by : Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh</p>
+        
       </div>
     </footer>
   )

@@ -4,7 +4,7 @@ import { DashboardNav } from "@/components/dashboard-nav"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Activity, TrendingUp, Calendar, Apple, Upload, Brain } from "lucide-react"
+import { Activity, TrendingUp,Heart, Calendar, Apple, Upload, Brain } from "lucide-react"
 
 export default async function DashboardPage() {
   const supabase = await createClient()
@@ -72,6 +72,24 @@ export default async function DashboardPage() {
           <div>
             <h1 className="text-3xl font-bold">Welcome back, {profile?.full_name}</h1>
             <p className="text-muted-foreground mt-1">Here&apos;s your health overview</p>
+
+          <Link
+  href="/"
+  className="fixed top-6 right-6 flex items-center gap-2 font-bold text-xl z-50"
+>
+  
+ 
+  <Heart className="h-6 w-6 text-primary fill-primary" />
+
+  <div className="flex flex-col leading-tight">
+    <span>NutriSense</span>
+    <span className="text-sm font-normal">GO BACK</span>
+  </div>
+</Link>
+
+
+
+
           </div>
 
           {/* Quick Stats */}
