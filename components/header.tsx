@@ -51,13 +51,32 @@ export function Header() {
             <Link href="/pregnancy/setup" className="text-sm font-medium hover:text-primary">
               Pregnancy
             </Link>
-            <Link href="/components/fitness" className="text-sm font-medium hover:text-primary">
-              Fitness
-            </Link>
             
-            <Link href="/chat" className="text-sm font-medium hover:text-primary">
-              Chat
-            </Link>
+            
+            
+
+            <Link
+  href="https://v0-fitness-and-doctor-chat.vercel.app/nutrisense-fitness"
+  
+  rel="noopener noreferrer"
+  className="text-sm font-medium hover:text-primary"
+>
+  Fitness
+</Link>
+
+
+
+
+
+     <Link
+  href="https://v0-fitness-and-doctor-chat.vercel.app/chat"
+  
+  rel="noopener noreferrer"
+  className="text-sm font-medium hover:text-primary"
+>
+  Chat
+</Link>
+
             <Link href="/analysis" className="text-sm font-medium hover:text-primary">
               Analysis
             </Link>
@@ -115,7 +134,7 @@ export function Header() {
             <nav className="flex flex-col gap-4">
               <Link href="/">Home</Link>
               <Link href="/pregnancy">Pregnancy</Link>
-              <Link href="/fitness">Fitness</Link>
+              
               <Link href="/analysis">Analysis</Link>
               <Link href="/chat">Chat</Link>
               <Link href="/chat">Our Doctors</Link>

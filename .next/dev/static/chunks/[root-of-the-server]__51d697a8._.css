@@ -165,7 +165,6 @@
     --container-md: 28rem;
     --container-lg: 32rem;
     --container-2xl: 42rem;
-    --container-3xl: 48rem;
     --container-4xl: 56rem;
     --container-6xl: 72rem;
     --container-7xl: 80rem;
@@ -904,10 +903,6 @@
     max-width: var(--container-2xl);
   }
 
-  .max-w-3xl {
-    max-width: var(--container-3xl);
-  }
-
   .max-w-4xl {
     max-width: var(--container-4xl);
   }
@@ -1314,36 +1309,6 @@
     background-color: var(--card);
   }
 
-  .bg-chart-3\/10 {
-    background-color: var(--chart-3);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-chart-3\/10 {
-      background-color: color-mix(in oklab, var(--chart-3) 10%, transparent);
-    }
-  }
-
-  .bg-chart-4\/10 {
-    background-color: var(--chart-4);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-chart-4\/10 {
-      background-color: color-mix(in oklab, var(--chart-4) 10%, transparent);
-    }
-  }
-
-  .bg-chart-5\/10 {
-    background-color: var(--chart-5);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-chart-5\/10 {
-      background-color: color-mix(in oklab, var(--chart-5) 10%, transparent);
-    }
-  }
-
   .bg-destructive {
     background-color: var(--destructive);
   }
@@ -1392,16 +1357,6 @@
 
   .bg-secondary {
     background-color: var(--secondary);
-  }
-
-  .bg-secondary\/10 {
-    background-color: var(--secondary);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-secondary\/10 {
-      background-color: color-mix(in oklab, var(--secondary) 10%, transparent);
-    }
   }
 
   .bg-transparent {
@@ -1732,20 +1687,12 @@
     text-wrap: balance;
   }
 
-  .text-pretty {
-    text-wrap: pretty;
-  }
-
   .whitespace-nowrap {
     white-space: nowrap;
   }
 
   .text-accent {
     color: var(--accent);
-  }
-
-  .text-black {
-    color: var(--color-black);
   }
 
   .text-card-foreground {
@@ -1762,10 +1709,6 @@
 
   .text-chart-4 {
     color: var(--chart-4);
-  }
-
-  .text-chart-5 {
-    color: var(--chart-5);
   }
 
   .text-current {
@@ -1802,10 +1745,6 @@
 
   .text-red-600 {
     color: var(--color-red-600);
-  }
-
-  .text-secondary {
-    color: var(--secondary);
   }
 
   .text-secondary-foreground {
@@ -2103,12 +2042,6 @@
   @media (hover: hover) {
     .hover\:text-accent-foreground:hover {
       color: var(--accent-foreground);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-black:hover {
-      color: var(--color-black);
     }
   }
 
@@ -2545,12 +2478,6 @@
   @media (min-width: 64rem) {
     .lg\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:grid-cols-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
