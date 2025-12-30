@@ -44,6 +44,17 @@ export function Header() {
               How It Works
             </Link>
 
+
+
+
+
+
+
+
+
+
+
+
           {/* Desktop Nav */}
           
 
@@ -77,9 +88,17 @@ export function Header() {
   Chat
 </Link>
 
-            <Link href="/analysis" className="text-sm font-medium hover:text-primary">
+            
+
+
+
+<Link href="/dashboard/upload" className="text-sm font-medium hover:text-primary">
               Analysis
             </Link>
+
+
+
+
             
             <nav className="hidden md:flex items-center gap-6">  
             

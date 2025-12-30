@@ -167,6 +167,7 @@ export default async function DashboardPage() {
                     <h4 className="font-semibold text-sm mb-1">Health Prediction</h4>
                     <p className="text-xs text-muted-foreground">Get ML-powered health risk assessments</p>
                   </div>
+
                 </Link>
                 <Link href="/dashboard/upload" className="block">
                   <div className="p-4 rounded-lg border border-border hover:border-primary transition-colors cursor-pointer h-full">
@@ -179,7 +180,19 @@ export default async function DashboardPage() {
             </CardContent>
           </Card>
 
+
+
+
+
           {/* Quick Actions */}
+
+
+                
+
+
+
+
+
           <Card>
             <CardHeader>
               <CardTitle>Quick Actions</CardTitle>
