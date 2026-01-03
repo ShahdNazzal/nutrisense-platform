@@ -21,7 +21,44 @@ export default function UploadPage() {
   const [chatLoading, setChatLoading] = useState(false)
   const [analysisResult, setAnalysisResult] = useState<any>(null)
   const [predictionResult, setPredictionResult] = useState<any>(null)
+  const [halalFile, setHalalFile] = useState<File | null>(null);
+const [halalAnalyzing, setHalalAnalyzing] = useState(false);
+const [halalResult, setHalalResult] = useState<string | null>(null);
+
+const handleHalalAnalyze = async () => {
+  if (!halalFile) return;
+
+  setHalalAnalyzing(true);
+  setHalalResult(null);
+
+  const formData = new FormData();
+  formData.append("file", halalFile);
+
+  try {
+    const response = await fetch("/api/halal_haram", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    setHalalResult(data.prediction || "Error analyzing image");
+  } catch (err: any) {
+    setHalalResult(err.message || "Error analyzing image");
+  } finally {
+    setHalalAnalyzing(false);
+  }
+};
+
+
+
+
+
+
+
+
+
+
   const [error, setError] = useState<string | null>(null)
+
 
   const handleImageUpload = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -88,6 +125,8 @@ export default function UploadPage() {
   }
 
   const handleChatSubmit = async (e: React.FormEvent) => {
+    
+
     e.preventDefault()
     if (!chatMessage.trim()) return
 
@@ -134,12 +173,36 @@ export default function UploadPage() {
           </p>
         </div>
 
-        <Tabs defaultValue="image" className="w-full">
-          <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="image">Medical Image Analysis</TabsTrigger>
-            <TabsTrigger value="prediction">Health Prediction</TabsTrigger>
-            <TabsTrigger value="chatbot">AI Chatbot</TabsTrigger>
+        
+
+
+<Tabs defaultValue="image" className="w-full">
+          
+          <TabsList className="flex justify-center gap-30 mt-10">
+            <TabsTrigger value="image"  className="text-base px-8 py-8 h-12">Medical Image Analysis</TabsTrigger>
+            <TabsTrigger value="prediction"  className="text-base px-6 py-3 h-12">Health Prediction</TabsTrigger>
+            <TabsTrigger value="chatbot"   className="text-base px-6 py-3 h-12">AI Chatbot </TabsTrigger>
+            <TabsTrigger value="halal_haram"  className="text-base px-6 py-3 h-12">Halal or Haram</TabsTrigger>
+            
           </TabsList>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <TabsContent value="image" className="space-y-4">
             <Card>
@@ -355,6 +418,74 @@ export default function UploadPage() {
               </CardContent>
             </Card>
           </TabsContent>
+
+
+
+
+
+
+
+
+
+
+
+
+<TabsContent value="halal_haram" className="space-y-4">
+  <Card>
+    <CardHeader>
+      <CardTitle>Halal or Haram Food Checker</CardTitle>
+      <CardDescription>
+        Upload a food image and let the AI determine if it is Halal or Haram
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <Input
+        type="file"
+        accept="image/*"
+        onChange={(e) => {
+          if (e.target.files && e.target.files[0]) setHalalFile(e.target.files[0]);
+        }}
+      />
+      {halalFile && (
+        <img
+          src={URL.createObjectURL(halalFile)}
+          alt="Preview"
+          className="max-w-xs mt-2"
+        />
+      )}
+      <Button
+        onClick={handleHalalAnalyze}
+        disabled={halalAnalyzing || !halalFile}
+        className="mt-2 w-full"
+      >
+        {halalAnalyzing ? (
+          <>
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+            Analyzing...
+          </>
+        ) : (
+          "Analyze"
+        )}
+      </Button>
+      {halalResult && (
+        <p className="mt-2 font-semibold text-lg">Prediction: {halalResult}</p>
+      )}
+    </CardContent>
+  </Card>
+</TabsContent>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <TabsContent value="chatbot" className="space-y-4">
             <Card>
