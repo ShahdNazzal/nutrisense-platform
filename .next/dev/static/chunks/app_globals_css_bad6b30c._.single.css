@@ -74,7 +74,6 @@
     --color-red-600: #e40014;
     --color-yellow-600: #cd8900;
     --color-green-600: #00a544;
-    --color-gray-300: #d1d5dc;
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -130,7 +129,6 @@
       --color-red-600: lab(48.4493% 77.4328 61.5452);
       --color-yellow-600: lab(62.7799% 22.4197 86.1544);
       --color-green-600: lab(59.0978% -58.6621 41.2579);
-      --color-gray-300: lab(85.1236% -.612259 -3.7138);
     }
   }
 }
@@ -1076,10 +1074,6 @@
     overflow-y: auto;
   }
 
-  .rounded {
-    border-radius: .25rem;
-  }
-
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -1152,10 +1146,6 @@
 
   .border-border {
     border-color: var(--border);
-  }
-
-  .border-gray-300 {
-    border-color: var(--color-gray-300);
   }
 
   .border-input {

@@ -173,6 +173,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../app/api/halal_haram/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/halal_haram">> = Specific
+  const handler = {} as typeof import("../../../app/api/halal_haram/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/api/ml/analyze-image/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/ml/analyze-image">> = Specific
@@ -186,15 +195,6 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/ml/chatbot">> = Specific
   const handler = {} as typeof import("../../../app/api/ml/chatbot/route.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../../app/api/ml/halal_haram/route.ts
-{
-  type __IsExpected<Specific extends RouteHandlerConfig<"/api/ml/halal_haram">> = Specific
-  const handler = {} as typeof import("../../../app/api/ml/halal_haram/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

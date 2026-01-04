@@ -36,9 +36,10 @@ const handleHalalAnalyze = async () => {
 
   try {
     const response = await fetch("/api/halal_haram", {
-      method: "POST",
-      body: formData,
-    });
+  method: "POST",
+  body: formData,
+});
+
     const data = await response.json();
     setHalalResult(data.prediction || "Error analyzing image");
   } catch (err: any) {
