@@ -2,6 +2,7 @@ from flask import Flask, request, render_template_string
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
+import os
 
 app = Flask(__name__)
 
@@ -46,4 +47,5 @@ def predict():
     return render_template_string(HTML_TEMPLATE.format(bg=bg_color, text=result_text))
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 5000))  # Render يعطيه PORT تلقائي
+    app.run(host="0.0.0.0", port=port)
