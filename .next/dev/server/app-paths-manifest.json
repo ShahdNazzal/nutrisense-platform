@@ -1,5 +1,5 @@
 {
-  "/api/halal_haram/route": "app/api/halal_haram/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/upload/page": "app/dashboard/upload/page.js",
   "/page": "app/page.js"
 }

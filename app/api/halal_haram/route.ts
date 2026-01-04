@@ -12,16 +12,20 @@ export async function POST(request: Request) {
     const flaskForm = new FormData();
     flaskForm.append("file", file);
 
-    const flaskResponse = await fetch("http://127.0.0.1:5000/predict", {
-      method: "POST",
-      body: flaskForm,
-    });
+    const flaskResponse = await fetch(
+      "https://orange-spoon-r4v5rv4qp94whx45j-5000.app.github.dev/predict", // URL العام مع /predict
+      { method: "POST", body: flaskForm }
+    );
+
+    if (!flaskResponse.ok) {
+      throw new Error(`Flask server error: ${flaskResponse.status}`);
+    }
 
     const data = await flaskResponse.json();
     return NextResponse.json(data);
-  } catch (err) {
+  } catch (err: any) {
     return NextResponse.json(
-      { error: "API crashed" },
+      { error: err.message || "API crashed" },
       { status: 500 }
     );
   }
