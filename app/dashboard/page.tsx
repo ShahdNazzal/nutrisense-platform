@@ -1,3 +1,5 @@
+
+
 import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import { DashboardNav } from "@/components/dashboard-nav"
@@ -5,6 +7,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Activity, TrendingUp,Heart, Calendar, Apple, Upload, Brain } from "lucide-react"
+
+
+
+
 
 export default async function DashboardPage() {
   const supabase = await createClient()
@@ -16,6 +22,10 @@ export default async function DashboardPage() {
   if (error || !user) {
     redirect("/auth/login")
   }
+
+
+
+
 
   // Fetch or create profile
   let { data: profile } = await supabase.from("profiles").select("*").eq("id", user.id).single()
@@ -64,6 +74,8 @@ export default async function DashboardPage() {
     .eq("receiver_id", user.id)
     .eq("status", "unread")
 
+
+    
   return (
     <div className="flex h-screen">
       <DashboardNav userType={profile?.user_type} />
@@ -94,6 +106,12 @@ export default async function DashboardPage() {
 
           {/* Quick Stats */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+
+
+
+
+
             <Card>
               <CardHeader className="flex flex-row items-center justify-between pb-2">
                 <CardTitle className="text-sm font-medium">Current BMI</CardTitle>
@@ -151,7 +169,7 @@ export default async function DashboardPage() {
             <CardContent className="space-y-4">
               <p className="text-sm text-muted-foreground">
                 Use our advanced AI and machine learning tools to analyze your health data, get personalized
-                predictions, and chat with our nutrition assistant.
+                predictions, and cst with our nutrition assistant.
               </p>
               <div className="grid md:grid-cols-3 gap-3">
                 <Link href="/dashboard/upload" className="block">
@@ -168,7 +186,11 @@ export default async function DashboardPage() {
                     <p className="text-xs text-muted-foreground">Get ML-powered health risk assessments</p>
                   </div>
 
+
+
                 </Link>
+
+
                 <Link href="/dashboard/upload" className="block">
                   <div className="p-4 rounded-lg border border-border hover:border-primary transition-colors cursor-pointer h-full">
                     <Brain className="h-5 w-5 text-primary mb-2" />
@@ -180,6 +202,8 @@ export default async function DashboardPage() {
             </CardContent>
           </Card>
 
+ 
+
 
 
 
@@ -187,7 +211,9 @@ export default async function DashboardPage() {
           {/* Quick Actions */}
 
 
-                
+
+
+
 
 
 
@@ -253,3 +279,7 @@ export default async function DashboardPage() {
     </div>
   )
 }
+
+
+
+

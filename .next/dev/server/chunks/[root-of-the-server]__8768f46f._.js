@@ -63,15 +63,18 @@ async function POST(request) {
         }
         const flaskForm = new FormData();
         flaskForm.append("file", file);
-        const flaskResponse = await fetch("http://127.0.0.1:5000/predict", {
+        const flaskResponse = await fetch("https://halal-haram-flask.onrender.com/predict", {
             method: "POST",
             body: flaskForm
         });
+        if (!flaskResponse.ok) {
+            throw new Error(`Flask server error: ${flaskResponse.status}`);
+        }
         const data = await flaskResponse.json();
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(data);
     } catch (err) {
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            error: "API crashed"
+            error: err.message || "API crashed"
         }, {
             status: 500
         });

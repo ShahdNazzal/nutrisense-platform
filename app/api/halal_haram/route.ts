@@ -13,9 +13,10 @@ export async function POST(request: Request) {
     flaskForm.append("file", file);
 
     const flaskResponse = await fetch(
-      "https://orange-spoon-r4v5rv4qp94whx45j-5000.app.github.dev/predict", // URL العام مع /predict
-      { method: "POST", body: flaskForm }
-    );
+  "https://halal-haram-flask.onrender.com/predict",
+  { method: "POST", body: flaskForm }
+);
+
 
     if (!flaskResponse.ok) {
       throw new Error(`Flask server error: ${flaskResponse.status}`);

@@ -35,20 +35,21 @@ const handleHalalAnalyze = async () => {
   formData.append("file", halalFile);
 
   try {
-    const response = await fetch("https://your-backend-url.com/predict", {
-  method: "POST",
-  body: formData
-});
+    const res = await fetch("/api/halal_haram", {
+      method: "POST",
+      body: formData,
+    });
 
+    const data = await res.json();
 
-    const data = await response.json();
-    setHalalResult(data.prediction || "Error analyzing image");
-  } catch (err: any) {
-    setHalalResult(err.message || "Error analyzing image");
+    setHalalResult(data.result);
+  } catch (error) {
+    setHalalResult("Failed to analyze");
   } finally {
     setHalalAnalyzing(false);
   }
 };
+
 
 
 
