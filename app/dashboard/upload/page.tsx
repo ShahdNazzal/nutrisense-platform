@@ -25,6 +25,7 @@ export default function UploadPage() {
 const [halalAnalyzing, setHalalAnalyzing] = useState(false);
 const [halalResult, setHalalResult] = useState<string | null>(null);
 
+
 const handleHalalAnalyze = async () => {
   if (!halalFile) return;
 
