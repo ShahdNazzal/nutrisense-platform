@@ -41,13 +41,23 @@ const handleHalalAnalyze = async () => {
       body: formData,
     });
 
+    if (!res.ok) {
+      throw new Error("Request failed");
+    }
+
     const data = await res.json();
 
-    setHalalResult(data.result);
+    if (data?.result) {
+      setHalalResult(data.result);   // ✅ النتيجة الصح
+    } else {
+      setHalalResult("Unexpected response");
+    }
+
   } catch (error) {
-    setHalalResult("Failed to analyze");
+    console.error(error);
+    setHalalResult("Server is warming up, try again");
   } finally {
-    setHalalAnalyzing(false);
+    setHalalAnalyzing(false); // ✅ مهم جدًا
   }
 };
 
