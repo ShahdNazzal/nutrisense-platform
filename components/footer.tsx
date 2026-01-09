@@ -80,7 +80,7 @@ export function Footer() {
         </div>
 
         <p className="text-sm text-muted-foreground , text-center mt-4">
-          Made by : Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh</p>
+          Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh</p>
         
       </div>
     </footer>

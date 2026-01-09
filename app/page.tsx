@@ -40,6 +40,9 @@ const router = useRouter()
 
 
 
+
+
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -68,9 +71,6 @@ const router = useRouter()
 
 
 
-              
-      
-
 
 
 
@@ -84,6 +84,33 @@ const router = useRouter()
           </div>
         </div>
       </section>
+
+
+
+      <img
+  src="/profile.jpg"
+  alt="profile"
+  className="w-60 h-60 object-cover rounded-full border-4 border-white-500 shadow-lg"
+ />
+
+
+<div className="mt-3 w-full pl-4">
+  <p className="text-sm text-muted-foreground text-left">
+    Built by Shahed Nazzal, Nebal Al-Asad, <br />
+    Eman Al-Afeef, and Sadeen Dawagreh
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Features Section */}
       <section id="features" className="py-20 md:py-32">
@@ -404,6 +431,37 @@ const router = useRouter()
           </div>
         </div>
       </section>
+
+
+
+
+
+<div className="mt-3 w-full pl-4">
+  <p className="text-right text-lg font-semibold relative right-125">
+    <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+  </p>
+</div>
+
+
+
+<div className="w-1/2 mx-auto flex justify-center">
+  <a
+    href="https://v0-fitness-and-doctor-chat.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/Screenshot_1.jpg"
+      alt="Clickable Screenshot"
+      className="w-full h-48 cursor-pointer hover:opacity-80 transition-opacity border-4 border-blue-100 rounded-lg"
+    />
+  </a>
+</div>
+
+
+
+
+
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">

@@ -11,6 +11,9 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Loader2, Upload, CheckCircle2, AlertCircle } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
+import HealthChatbot from "@/components/HealthChatbot"
+
+
 
 export default function UploadPage() {
   const [uploading, setUploading] = useState(false)
@@ -24,7 +27,7 @@ export default function UploadPage() {
   const [halalFile, setHalalFile] = useState<File | null>(null);
 const [halalAnalyzing, setHalalAnalyzing] = useState(false);
 const [halalResult, setHalalResult] = useState<string | null>(null);
-
+const [messages, setMessages] = useState<{content: string; sender: "user" | "ai"}[]>([])
 
 const handleHalalAnalyze = async () => {
   if (!halalFile) return;
@@ -501,75 +504,22 @@ const handleHalalAnalyze = async () => {
 
 
 
-          <TabsContent value="chatbot" className="space-y-4">
-            <Card>
-              <CardHeader>
-                <CardTitle>AI Nutrition Assistant</CardTitle>
-                <CardDescription>Ask questions about nutrition, diet, and healthy living</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="min-h-[300px] border border-border rounded-lg p-4 space-y-4">
-                  <div className="flex items-start space-x-2">
-                    <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">
-                      AI
-                    </div>
-                    <div className="bg-muted rounded-lg p-3 max-w-[80%]">
-                      <p className="text-sm">
-                        Hello! I'm NutriBot, your AI nutrition assistant. Ask me anything about nutrition, diet,
-                        pregnancy nutrition, athletic performance, or healthy living!
-                      </p>
-                    </div>
-                  </div>
 
-                  {chatResponse && (
-                    <div className="flex items-start space-x-2">
-                      <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">
-                        AI
-                      </div>
-                      <div className="bg-muted rounded-lg p-3 max-w-[80%]">
-                        <p className="text-sm">{chatResponse}</p>
-                      </div>
-                    </div>
-                  )}
 
-                  {chatLoading && (
-                    <div className="flex items-start space-x-2">
-                      <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">
-                        AI
-                      </div>
-                      <div className="bg-muted rounded-lg p-3">
-                        <Loader2 className="h-4 w-4 animate-spin" />
-                      </div>
-                    </div>
-                  )}
-                </div>
 
-                <form onSubmit={handleChatSubmit} className="flex space-x-2">
-                  <Input
-                    value={chatMessage}
-                    onChange={(e) => setChatMessage(e.target.value)}
-                    placeholder="Ask me about nutrition..."
-                    disabled={chatLoading}
-                  />
-                  <Button type="submit" disabled={chatLoading || !chatMessage.trim()}>
-                    Send
-                  </Button>
-                </form>
 
-                <div className="text-xs text-muted-foreground">
-                  <p>Try asking about:</p>
-                  <ul className="list-disc list-inside mt-2 space-y-1">
-                    <li>Pregnancy nutrition and prenatal vitamins</li>
-                    <li>Athletic performance and sports nutrition</li>
-                    <li>Weight management strategies</li>
-                    <li>Balanced diet recommendations</li>
-                  </ul>
-                </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-        </Tabs>
-      </div>
-    </div>
-  )
-}
+
+
+
+
+
+
+<TabsContent value="chatbot">
+  <HealthChatbot />
+</TabsContent>
+
+</Tabs>
+ </div>
+ </div>
+ )
+ }
