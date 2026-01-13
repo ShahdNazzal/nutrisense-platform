@@ -33,16 +33,11 @@ export function Header() {
 
 
 
-        <Link href="/" className="text-sm font-medium hover:text-primary">
-              Home
-            </Link>
+       
 
-        <Link href="#features" className="text-sm font-medium hover:text-primary">
-              Features
-            </Link>
-            <Link href="#how-it-works" className="text-sm font-medium hover:text-primary">
-              How It Works
-            </Link>
+       
+            
+          
 
 
 
