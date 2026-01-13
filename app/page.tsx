@@ -110,9 +110,7 @@ const router = useRouter()
   </a>
 
  
-  <p className="mt-2 text-yellow-400 text-sm font-medium flex items-center gap-1">
-    ⚠️ You may be required to pay inside
-  </p>
+  
 </div>
 
 

@@ -29,9 +29,16 @@ export default function NewMessagePage() {
     const fetchDoctors = async () => {
       const supabase = createClient()
       const { data } = await supabase
-        .from("doctors")
-        .select("id, specialization, profiles!inner(full_name)")
-        .order("profiles(full_name)")
+
+      
+  .from("doctors")
+  .select("id, specialization, full_name")
+  .order("full_name")
+
+
+        
+        //.select("id, specialization, profiles!inner(full_name)")
+       // .order("profiles(full_name)")
 
       if (data) setDoctors(data)
     }
@@ -83,6 +90,8 @@ export default function NewMessagePage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
                   <Label htmlFor="receiver">To (Doctor)</Label>
+
+
                   <Select
                     required
                     value={formData.receiverId}
@@ -91,14 +100,21 @@ export default function NewMessagePage() {
                     <SelectTrigger id="receiver">
                       <SelectValue placeholder="Select a doctor" />
                     </SelectTrigger>
+
+
                     <SelectContent>
-                      {doctors.map((doctor: any) => (
-                        <SelectItem key={doctor.id} value={doctor.id}>
-                          {doctor.profiles.full_name} - {doctor.specialization}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
+  {doctors.map((doctor) => (
+    <SelectItem key={doctor.id} value={doctor.id}>
+      {doctor.full_name} - {doctor.specialization}
+    </SelectItem>
+  ))}
+</SelectContent>
+
+
+
                   </Select>
+
+
                 </div>
 
                 <div className="space-y-2">

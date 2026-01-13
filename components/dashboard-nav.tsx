@@ -45,11 +45,13 @@ export function DashboardNav({ userType = "general" }: DashboardNavProps) {
 
 
   return (
-    <div className="flex h-full w-64 flex-col border-r border-border bg-card">
+    <div className="flex h-full w-16 md:w-64 flex-col border-r border-border bg-card">
+
       <div className="flex h-16 items-center border-b border-border px-6">
         <Link href="/dashboard" className="flex items-center gap-2">
           <Activity className="h-6 w-6 text-primary" />
-          <span className="text-xl font-semibold">NutriSense</span>
+          <span className="hidden md:inline text-xl font-semibold">NutriSense</span>
+
         </Link>
       </div>
       <nav className="flex-1 space-y-1 px-3 py-4">
@@ -67,7 +69,9 @@ export function DashboardNav({ userType = "general" }: DashboardNavProps) {
               }`}
             >
               <Icon className="h-5 w-5" />
-              {item.label}
+             
+             <span className="hidden md:inline">{item.label}</span>
+
             </Link>
           )
         })}
@@ -75,7 +79,7 @@ export function DashboardNav({ userType = "general" }: DashboardNavProps) {
       <div className="border-t border-border p-4">
         <Button variant="ghost" className="w-full justify-start" onClick={handleLogout}>
           <LogOut className="mr-3 h-5 w-5" />
-          Log Out
+          <span className="hidden md:inline">Log Out</span>
         </Button>
       </div>
     </div>

@@ -41,17 +41,17 @@ export function Footer() {
             <h3 className="font-semibold mb-3">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/pregnancy-care" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/pregnancy/setup" className="text-muted-foreground hover:text-primary transition-colors">
                   Pregnancy Care
                 </Link>
               </li>
               <li>
-                <Link href="/athletes-fitness" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/nutrisense-fitness" className="text-muted-foreground hover:text-primary transition-colors">
                   Athletes & Fitness
                 </Link>
               </li>
               <li>
-                <Link href="/chat" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/chat" className="text-muted-foreground hover:text-primary transition-colors">
                   Doctor Chat
                 </Link>
               </li>
@@ -82,7 +82,29 @@ export function Footer() {
         <p className="text-sm text-muted-foreground , text-center mt-4">
           Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh</p>
         
+
+       <p className="text-sm text-muted-foreground leading-relaxed">
+  NutriSense uses trusted medical datasets from verified sources such as PhysioNet.
+  All user data and chat communications are securely stored and accessed only by authorized doctors.
+  Patient messages are strictly private and never visible to other users.
+  Developed by a student-led team based in Jordan.
+</p>
+
+<p className="mt-2 text-yellow-400 text-sm font-medium flex items-center gap-1">
+    ⚠️ You may be required to pay inside Fitness&Chat page
+  </p>
+
+<p className="text-sm mt-2">
+  Data Source: <a href="https://physionet.org/" target="_blank" className="underline">https://physionet.org/</a><br />
+  Contact: <a href="mailto:NutriSense.2025@gmail.com" className="underline">NutriSense.2025@gmail.com</a>
+</p>
+
+
+
+
       </div>
     </footer>
+    
   )
+  
 }

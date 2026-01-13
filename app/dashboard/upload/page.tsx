@@ -44,6 +44,8 @@ const handleHalalAnalyze = async () => {
       body: formData,
     });
 
+
+   
     if (!res.ok) {
       throw new Error("Request failed");
     }

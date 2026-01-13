@@ -30,10 +30,13 @@ export default function BookAppointmentPage() {
     const fetchDoctors = async () => {
       const supabase = createClient()
       const { data } = await supabase
-        .from("doctors")
-        .select("id, specialization, consultation_fee, profiles!inner(full_name)")
-        .eq("verified", true)
-        .order("profiles(full_name)")
+  .from("doctors")
+  .select("id, full_name, specialization, consultation_fee")
+  .eq("verified", true)
+  .order("full_name")
+
+
+
 
       if (data) setDoctors(data)
     }
@@ -98,7 +101,8 @@ export default function BookAppointmentPage() {
                     <SelectContent>
                       {doctors.map((doctor: any) => (
                         <SelectItem key={doctor.id} value={doctor.id}>
-                          {doctor.profiles.full_name} - {doctor.specialization} (${doctor.consultation_fee})
+                         {doctor.full_name} - {doctor.specialization} (${doctor.consultation_fee})
+
                         </SelectItem>
                       ))}
                     </SelectContent>

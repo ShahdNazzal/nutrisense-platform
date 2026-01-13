@@ -465,6 +465,10 @@
     pointer-events: none;
   }
 
+  .visible {
+    visibility: visible;
+  }
+
   .sr-only {
     clip-path: inset(50%);
     white-space: nowrap;
@@ -2707,6 +2711,18 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:inline {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:w-64 {
+      width: calc(var(--spacing) * 64);
     }
   }
 

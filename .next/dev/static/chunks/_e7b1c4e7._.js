@@ -765,10 +765,11 @@ function UploadPage() {
                 method: "POST",
                 body: formData
             });
-            if (!res.ok) {
-                throw new Error("Request failed");
-            }
-            const data = await res.json();
+            /* 
+    if (!res.ok) {
+      throw new Error("Request failed");
+    }
+*/ const data = await res.json();
             if (data?.result) {
                 setHalalResult(data.result); // ✅ النتيجة الصح
             } else {
@@ -877,17 +878,17 @@ function UploadPage() {
                         children: "← Back to Dashboard"
                     }, void 0, false, {
                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                        lineNumber: 179,
+                        lineNumber: 181,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                    lineNumber: 178,
+                    lineNumber: 180,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                lineNumber: 177,
+                lineNumber: 179,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -900,7 +901,7 @@ function UploadPage() {
                                 children: "AI-Powered Health Analysis"
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 187,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -908,13 +909,13 @@ function UploadPage() {
                                 children: "Upload medical results, get health predictions, or chat with our AI assistant"
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 188,
+                                lineNumber: 190,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                        lineNumber: 186,
+                        lineNumber: 188,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tabs"], {
@@ -930,7 +931,7 @@ function UploadPage() {
                                         children: "Medical Image Analysis"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                        lineNumber: 199,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -939,7 +940,7 @@ function UploadPage() {
                                         children: "Health Prediction"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                        lineNumber: 200,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -948,7 +949,7 @@ function UploadPage() {
                                         children: "AI Chatbot "
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 203,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -957,13 +958,13 @@ function UploadPage() {
                                         children: "Halal or Haram"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                        lineNumber: 202,
+                                        lineNumber: 204,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 198,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -977,20 +978,20 @@ function UploadPage() {
                                                     children: "Deep Learning Image Analysis"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 227,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Upload your medical test results for AI-powered analysis"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 230,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 226,
+                                            lineNumber: 228,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1007,7 +1008,7 @@ function UploadPage() {
                                                                     children: "Medical Test Image"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 233,
+                                                                    lineNumber: 235,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1018,13 +1019,13 @@ function UploadPage() {
                                                                     required: true
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 234,
+                                                                    lineNumber: 236,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 234,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1035,7 +1036,7 @@ function UploadPage() {
                                                                     children: "Analysis Type"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 238,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1045,13 +1046,13 @@ function UploadPage() {
                                                                     defaultValue: "Blood Test"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 239,
+                                                                    lineNumber: 241,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 237,
+                                                            lineNumber: 239,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1064,7 +1065,7 @@ function UploadPage() {
                                                                         className: "mr-2 h-4 w-4 animate-spin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 250,
+                                                                        lineNumber: 252,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "Analyzing..."
@@ -1075,7 +1076,7 @@ function UploadPage() {
                                                                         className: "mr-2 h-4 w-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 255,
+                                                                        lineNumber: 257,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "Upload & Analyze"
@@ -1083,13 +1084,13 @@ function UploadPage() {
                                                             }, void 0, true)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 247,
+                                                            lineNumber: 249,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this),
                                                 error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Alert"], {
@@ -1100,20 +1101,20 @@ function UploadPage() {
                                                             className: "h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 264,
+                                                            lineNumber: 266,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDescription"], {
                                                             children: error
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 265,
+                                                            lineNumber: 267,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this),
                                                 analysisResult && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1125,7 +1126,7 @@ function UploadPage() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 272,
+                                                                    lineNumber: 274,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDescription"], {
@@ -1136,13 +1137,13 @@ function UploadPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 273,
+                                                                    lineNumber: 275,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 271,
+                                                            lineNumber: 273,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1153,12 +1154,12 @@ function UploadPage() {
                                                                         children: "Analysis Results"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 280,
+                                                                        lineNumber: 282,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 279,
+                                                                    lineNumber: 281,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1176,7 +1177,7 @@ function UploadPage() {
                                                                                                     children: finding.type
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                                    lineNumber: 287,
+                                                                                                    lineNumber: 289,
                                                                                                     columnNumber: 33
                                                                                                 }, this),
                                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1184,7 +1185,7 @@ function UploadPage() {
                                                                                                     children: finding.value
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                                    lineNumber: 288,
+                                                                                                    lineNumber: 290,
                                                                                                     columnNumber: 33
                                                                                                 }, this),
                                                                                                 finding.range && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1192,13 +1193,13 @@ function UploadPage() {
                                                                                                     children: finding.range
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                                    lineNumber: 289,
+                                                                                                    lineNumber: 291,
                                                                                                     columnNumber: 51
                                                                                                 }, this)
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 286,
+                                                                                            lineNumber: 288,
                                                                                             columnNumber: 31
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1209,18 +1210,18 @@ function UploadPage() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 291,
+                                                                                            lineNumber: 293,
                                                                                             columnNumber: 31
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 285,
+                                                                                    lineNumber: 287,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             }, idx, false, {
                                                                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                lineNumber: 284,
+                                                                                lineNumber: 286,
                                                                                 columnNumber: 27
                                                                             }, this)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1231,7 +1232,7 @@ function UploadPage() {
                                                                                     children: "Recommendations"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 299,
+                                                                                    lineNumber: 301,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1243,25 +1244,25 @@ function UploadPage() {
                                                                                                     className: "h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                                    lineNumber: 303,
+                                                                                                    lineNumber: 305,
                                                                                                     columnNumber: 33
                                                                                                 }, this),
                                                                                                 rec
                                                                                             ]
                                                                                         }, idx, true, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 302,
+                                                                                            lineNumber: 304,
                                                                                             columnNumber: 31
                                                                                         }, this))
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 300,
+                                                                                    lineNumber: 302,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 298,
+                                                                            lineNumber: 300,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1272,42 +1273,42 @@ function UploadPage() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 310,
+                                                                            lineNumber: 312,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 282,
+                                                                    lineNumber: 284,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 278,
+                                                            lineNumber: 280,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 270,
+                                                    lineNumber: 272,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 230,
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                    lineNumber: 225,
+                                    lineNumber: 227,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 224,
+                                lineNumber: 226,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1321,20 +1322,20 @@ function UploadPage() {
                                                     children: "Machine Learning Health Prediction"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 322,
+                                                    lineNumber: 324,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Enter your health data to get AI-powered risk assessment"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 323,
+                                                    lineNumber: 325,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 321,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1354,7 +1355,7 @@ function UploadPage() {
                                                                             children: "Age"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 329,
+                                                                            lineNumber: 331,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1365,13 +1366,13 @@ function UploadPage() {
                                                                             placeholder: "30"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 330,
+                                                                            lineNumber: 332,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 328,
+                                                                    lineNumber: 330,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1382,7 +1383,7 @@ function UploadPage() {
                                                                             children: "Weight (kg)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 334,
+                                                                            lineNumber: 336,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1394,13 +1395,13 @@ function UploadPage() {
                                                                             placeholder: "70"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 335,
+                                                                            lineNumber: 337,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 333,
+                                                                    lineNumber: 335,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1411,7 +1412,7 @@ function UploadPage() {
                                                                             children: "Height (cm)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 339,
+                                                                            lineNumber: 341,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1422,13 +1423,13 @@ function UploadPage() {
                                                                             placeholder: "170"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 340,
+                                                                            lineNumber: 342,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 338,
+                                                                    lineNumber: 340,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1439,7 +1440,7 @@ function UploadPage() {
                                                                             children: "Blood Pressure"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 344,
+                                                                            lineNumber: 346,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1448,13 +1449,13 @@ function UploadPage() {
                                                                             placeholder: "120/80"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 345,
+                                                                            lineNumber: 347,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 343,
+                                                                    lineNumber: 345,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1465,7 +1466,7 @@ function UploadPage() {
                                                                             children: "Blood Sugar (mg/dL)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 349,
+                                                                            lineNumber: 351,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1474,13 +1475,13 @@ function UploadPage() {
                                                                             placeholder: "95"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 350,
+                                                                            lineNumber: 352,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 348,
+                                                                    lineNumber: 350,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1491,7 +1492,7 @@ function UploadPage() {
                                                                             children: "Cholesterol (mg/dL)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 354,
+                                                                            lineNumber: 356,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1500,19 +1501,19 @@ function UploadPage() {
                                                                             placeholder: "180"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 355,
+                                                                            lineNumber: 357,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 353,
+                                                                    lineNumber: 355,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 327,
+                                                            lineNumber: 329,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1525,7 +1526,7 @@ function UploadPage() {
                                                                         className: "mr-2 h-4 w-4 animate-spin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 362,
+                                                                        lineNumber: 364,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     "Analyzing..."
@@ -1533,13 +1534,13 @@ function UploadPage() {
                                                             }, void 0, true) : "Generate Health Prediction"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 359,
+                                                            lineNumber: 361,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 326,
+                                                    lineNumber: 328,
                                                     columnNumber: 17
                                                 }, this),
                                                 predictionResult && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1554,12 +1555,12 @@ function UploadPage() {
                                                                         children: "Your Health Score"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 375,
+                                                                        lineNumber: 377,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 374,
+                                                                    lineNumber: 376,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1571,7 +1572,7 @@ function UploadPage() {
                                                                                 children: predictionResult.healthScore
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                lineNumber: 379,
+                                                                                lineNumber: 381,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1582,24 +1583,24 @@ function UploadPage() {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                lineNumber: 380,
+                                                                                lineNumber: 382,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 378,
+                                                                        lineNumber: 380,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 379,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 373,
+                                                            lineNumber: 375,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1610,12 +1611,12 @@ function UploadPage() {
                                                                         children: "Risk Factors"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 387,
+                                                                        lineNumber: 389,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 386,
+                                                                    lineNumber: 388,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1630,7 +1631,7 @@ function UploadPage() {
                                                                                             children: risk.factor
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 393,
+                                                                                            lineNumber: 395,
                                                                                             columnNumber: 31
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1638,13 +1639,13 @@ function UploadPage() {
                                                                                             children: risk.status
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 394,
+                                                                                            lineNumber: 396,
                                                                                             columnNumber: 31
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 392,
+                                                                                    lineNumber: 394,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1655,7 +1656,7 @@ function UploadPage() {
                                                                                             children: risk.score
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 397,
+                                                                                            lineNumber: 399,
                                                                                             columnNumber: 31
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1666,30 +1667,30 @@ function UploadPage() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 398,
+                                                                                            lineNumber: 400,
                                                                                             columnNumber: 31
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 396,
+                                                                                    lineNumber: 398,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, idx, true, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 391,
+                                                                            lineNumber: 393,
                                                                             columnNumber: 27
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 389,
+                                                                    lineNumber: 391,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 385,
+                                                            lineNumber: 387,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1700,12 +1701,12 @@ function UploadPage() {
                                                                         children: "Recommendations"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                        lineNumber: 417,
+                                                                        lineNumber: 419,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 416,
+                                                                    lineNumber: 418,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1719,19 +1720,19 @@ function UploadPage() {
                                                                                             className: "h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                            lineNumber: 423,
+                                                                                            lineNumber: 425,
                                                                                             columnNumber: 31
                                                                                         }, this),
                                                                                         rec
                                                                                     ]
                                                                                 }, idx, true, {
                                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                                    lineNumber: 422,
+                                                                                    lineNumber: 424,
                                                                                     columnNumber: 29
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 420,
+                                                                            lineNumber: 422,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1742,42 +1743,42 @@ function UploadPage() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                            lineNumber: 428,
+                                                                            lineNumber: 430,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                    lineNumber: 419,
+                                                                    lineNumber: 421,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                            lineNumber: 415,
+                                                            lineNumber: 417,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 372,
+                                                    lineNumber: 374,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 327,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 319,
+                                lineNumber: 321,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1791,20 +1792,20 @@ function UploadPage() {
                                                     children: "Halal or Haram Food Checker"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 453,
+                                                    lineNumber: 455,
                                                     columnNumber: 7
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Upload a food image and let the AI determine if it is Halal or Haram"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 454,
+                                                    lineNumber: 456,
                                                     columnNumber: 7
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 452,
+                                            lineNumber: 454,
                                             columnNumber: 5
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1817,7 +1818,7 @@ function UploadPage() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 459,
+                                                    lineNumber: 461,
                                                     columnNumber: 7
                                                 }, this),
                                                 halalFile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1826,7 +1827,7 @@ function UploadPage() {
                                                     className: "max-w-xs mt-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 467,
+                                                    lineNumber: 469,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1839,7 +1840,7 @@ function UploadPage() {
                                                                 className: "mr-2 h-4 w-4 animate-spin"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                                lineNumber: 480,
+                                                                lineNumber: 482,
                                                                 columnNumber: 13
                                                             }, this),
                                                             "Analyzing..."
@@ -1847,7 +1848,7 @@ function UploadPage() {
                                                     }, void 0, true) : "Analyze"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 473,
+                                                    lineNumber: 475,
                                                     columnNumber: 7
                                                 }, this),
                                                 halalResult && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1858,54 +1859,54 @@ function UploadPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                                    lineNumber: 488,
+                                                    lineNumber: 490,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/upload/page.tsx",
-                                            lineNumber: 458,
+                                            lineNumber: 460,
                                             columnNumber: 5
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                    lineNumber: 451,
+                                    lineNumber: 453,
                                     columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 450,
+                                lineNumber: 452,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
                                 value: "chatbot",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$HealthChatbot$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/app/dashboard/upload/page.tsx",
-                                    lineNumber: 518,
+                                    lineNumber: 520,
                                     columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                                lineNumber: 517,
+                                lineNumber: 519,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/upload/page.tsx",
-                        lineNumber: 196,
+                        lineNumber: 198,
                         columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/dashboard/upload/page.tsx",
-                lineNumber: 185,
+                lineNumber: 187,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/dashboard/upload/page.tsx",
-        lineNumber: 176,
+        lineNumber: 178,
         columnNumber: 5
     }, this);
 }

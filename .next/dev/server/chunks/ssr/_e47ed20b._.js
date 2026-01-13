@@ -152,7 +152,7 @@ function DashboardNav({ userType = "general" }) {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex h-full w-64 flex-col border-r border-border bg-card",
+        className: "flex h-full w-16 md:w-64 flex-col border-r border-border bg-card",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex h-16 items-center border-b border-border px-6",
@@ -164,26 +164,26 @@ function DashboardNav({ userType = "general" }) {
                             className: "h-6 w-6 text-primary"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard-nav.tsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-xl font-semibold",
+                            className: "hidden md:inline text-xl font-semibold",
                             children: "NutriSense"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard-nav.tsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard-nav.tsx",
-                    lineNumber: 50,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/dashboard-nav.tsx",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -199,20 +199,27 @@ function DashboardNav({ userType = "general" }) {
                                 className: "h-5 w-5"
                             }, void 0, false, {
                                 fileName: "[project]/components/dashboard-nav.tsx",
-                                lineNumber: 69,
+                                lineNumber: 71,
                                 columnNumber: 15
                             }, this),
-                            item.label
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "hidden md:inline",
+                                children: item.label
+                            }, void 0, false, {
+                                fileName: "[project]/components/dashboard-nav.tsx",
+                                lineNumber: 73,
+                                columnNumber: 14
+                            }, this)
                         ]
                     }, item.href, true, {
                         fileName: "[project]/components/dashboard-nav.tsx",
-                        lineNumber: 60,
+                        lineNumber: 62,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/dashboard-nav.tsx",
-                lineNumber: 55,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -226,19 +233,26 @@ function DashboardNav({ userType = "general" }) {
                             className: "mr-3 h-5 w-5"
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard-nav.tsx",
-                            lineNumber: 77,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
-                        "Log Out"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "hidden md:inline",
+                            children: "Log Out"
+                        }, void 0, false, {
+                            fileName: "[project]/components/dashboard-nav.tsx",
+                            lineNumber: 82,
+                            columnNumber: 11
+                        }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard-nav.tsx",
-                    lineNumber: 76,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/dashboard-nav.tsx",
-                lineNumber: 75,
+                lineNumber: 79,
                 columnNumber: 7
             }, this)
         ]

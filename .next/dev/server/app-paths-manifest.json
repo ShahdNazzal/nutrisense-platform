@@ -1,5 +1,19 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/api/halal_haram/route": "app/api/halal_haram/route.js",
+  "/appointments/book/page": "app/appointments/book/page.js",
+  "/appointments/page": "app/appointments/page.js",
+  "/athletes/page": "app/athletes/page.js",
+  "/athletes/setup/page": "app/athletes/setup/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/register/page": "app/auth/register/page.js",
   "/dashboard/our_doctors/page": "app/dashboard/our_doctors/page.js",
-  "/page": "app/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/upload/page": "app/dashboard/upload/page.js",
+  "/meal-plans/page": "app/meal-plans/page.js",
+  "/messages/new/page": "app/messages/new/page.js",
+  "/messages/page": "app/messages/page.js",
+  "/page": "app/page.js",
+  "/pregnancy/page": "app/pregnancy/page.js",
+  "/pregnancy/setup/page": "app/pregnancy/setup/page.js"
 }
