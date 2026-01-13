@@ -54,7 +54,7 @@ export function Header() {
           
 
 
-            <Link href="/pregnancy/setup" className="text-sm font-medium hover:text-primary">
+            <Link href="/pregnancy/setup" className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer">
               Pregnancy
             </Link>
             
@@ -65,7 +65,7 @@ export function Header() {
   href="https://v0-fitness-and-doctor-chat.vercel.app/nutrisense-fitness"
   
   rel="noopener noreferrer"
-  className="text-sm font-medium hover:text-primary"
+  className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer"
 >
   Fitness
 </Link>
@@ -78,7 +78,7 @@ export function Header() {
   href="https://v0-fitness-and-doctor-chat.vercel.app/chat"
   
   rel="noopener noreferrer"
-  className="text-sm font-medium hover:text-primary"
+  className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer"
 >
   Chat
 </Link>
@@ -90,7 +90,7 @@ export function Header() {
 
 
 
-<Link href="/dashboard/upload" className="text-sm font-medium hover:text-primary">
+<Link href="/dashboard/upload" className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer">
               Analysis
             </Link>
 
@@ -101,10 +101,10 @@ export function Header() {
             <nav className="hidden md:flex items-center gap-6">  
             
             <Link
-  href="#doctors"
-  className="text-sm font-medium text-foreground hover:text-foreground transition-colors"
+  href="/dashboard/our_doctors"
+  className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer"
 >
-  Our Doctors
+  Doctors
 </Link>
 
 
@@ -150,11 +150,12 @@ export function Header() {
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col gap-4">
               <Link href="/">Home</Link>
+              <link href="https://v0-fitness-and-doctor-chat.vercel.app/nutrisense-fitness">fitness</link>
               <Link href="/pregnancy">Pregnancy</Link>
               
-              <Link href="/analysis">Analysis</Link>
-              <Link href="/chat">Chat</Link>
-              <Link href="/chat">Our Doctors</Link>
+              <Link href="/dashboard/upload">Analysis</Link>
+              <Link href="https://fitnesschatting.vercel.app/chat">Chat</Link>
+              <Link href="/dashboard/our_doctors">Doctors</Link>
               <div className="pt-4 border-t">
                 {user ? (
                   <>

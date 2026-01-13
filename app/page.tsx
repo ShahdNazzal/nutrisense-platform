@@ -80,10 +80,53 @@ const router = useRouter()
                   Explore Features
                 </Button>
               </Link>
+
+
+
+
+
+
+
             </div>
+
+
+
           </div>
+
+
+
+
         </div>
+
+<div className="flex flex-col items-center mt-6">
+ 
+  <a
+    href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-bold text-lg px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+  >
+    Fitness & Chat
+  </a>
+
+ 
+  <p className="mt-2 text-yellow-400 text-sm font-medium flex items-center gap-1">
+    ⚠️ You may be required to pay inside
+  </p>
+</div>
+
+
+
       </section>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -431,33 +474,6 @@ const router = useRouter()
           </div>
         </div>
       </section>
-
-
-
-
-
-<div className="mt-3 w-full pl-4">
-  <p className="text-right text-lg font-semibold relative right-125">
-    <span className="text-black text-xl font-bold">"pages containing paid services"</span>
-  </p>
-</div>
-
-
-
-<div className="w-1/2 mx-auto flex justify-center">
-  <a
-    href="https://v0-fitness-and-doctor-chat.vercel.app/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="/Screenshot_1.jpg"
-      alt="Clickable Screenshot"
-      className="w-full h-48 cursor-pointer hover:opacity-80 transition-opacity border-4 border-blue-100 rounded-lg"
-    />
-  </a>
-</div>
-
 
 
 

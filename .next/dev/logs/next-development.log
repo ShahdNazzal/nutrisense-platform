@@ -1,30 +1,494 @@
-[00:00:11.143] Server  LOG      ✓ Ready in 9.3s
-[00:00:12.880] Server  ERROR   AuthApiError: Invalid Refresh Token: Refresh Token Not Found
-[00:00:12.915] Server  ERROR   AuthApiError: Invalid Refresh Token: Refresh Token Not Found
-[00:00:15.931] Server  LOG      ○ Compiling / ...
-[00:00:27.156] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:27.156] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:27.156] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:27.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/","r":"https://automatic-memory-gxrxqv6q9x439rjv.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313151778}
-[00:04:06.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/auth/login color: rgb(120, 120, 120) color: inherit {"dp":"/auth/login","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/auth/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313371441}
-[00:04:32.184] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313397392}
-[00:05:00.749] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy color: rgb(120, 120, 120) color: inherit {"dp":"/pregnancy","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313425958}
-[00:05:17.417] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages color: rgb(120, 120, 120) color: inherit {"dp":"/messages","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313442635}
-[00:05:24.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages/new color: rgb(120, 120, 120) color: inherit {"dp":"/messages/new","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages/new","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313449328}
-[00:05:56.623] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans color: rgb(120, 120, 120) color: inherit {"dp":"/meal-plans","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313481831}
-[00:06:15.337] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages/new color: rgb(120, 120, 120) color: inherit {"dp":"/messages/new","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/messages/new","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313500542}
-[00:06:20.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard/upload color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/upload","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard/upload","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313505791}
-[00:06:34.309] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313519517}
-[00:06:51.739] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans color: rgb(120, 120, 120) color: inherit {"dp":"/meal-plans","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313536953}
-[00:07:08.573] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy color: rgb(120, 120, 120) color: inherit {"dp":"/pregnancy","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313553776}
-[00:07:27.177] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans color: rgb(120, 120, 120) color: inherit {"dp":"/meal-plans","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/meal-plans","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313572388}
-[00:07:31.059] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy color: rgb(120, 120, 120) color: inherit {"dp":"/pregnancy","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/pregnancy","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313576273}
-[00:09:45.206] Server  LOG      ✓ Compiled in 70ms
-[00:09:46.920] Server  LOG      ✓ Compiled in 53ms
-[00:09:50.210] Server  LOG      ✓ Compiled in 46ms
-[00:09:57.377] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313722587}
-[00:10:00.543] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768313725759}
-[00:10:30.882] Server  LOG      ✓ Compiled in 48ms
-[00:10:46.160] Server  LOG      ✓ Compiled in 48ms
-[00:11:05.006] Server  LOG      ✓ Compiled in 41ms
-[00:11:15.914] Server  LOG      ✓ Compiled in 51ms
+[00:00:02.431] Server  LOG      ✓ Ready in 1907ms
+[00:00:10.278] Server  LOG      ○ Compiling / ...
+[00:00:17.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.244] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:17.245] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:17.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/","r":"https://automatic-memory-gxrxqv6q9x439rjv.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768323930440}
+[00:00:23.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard/our_doctors color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/our_doctors","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/dashboard/our_doctors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768323936953}
+[00:01:05.256] Server  LOG      ✓ Compiled in 67ms
+[00:01:08.487] Server  LOG      ✓ Compiled in 47ms
+[00:01:26.643] Server  LOG      ✓ Compiled in 44ms
+[00:01:27.947] Server  LOG      ✓ Compiled in 40ms
+[00:02:22.677] Server  LOG      ✓ Compiled in 35ms
+[00:02:55.438] Server  LOG      ✓ Compiled in 52ms
+[00:02:56.570] Server  LOG      ✓ Compiled in 43ms
+[00:03:32.244] Server  LOG      ✓ Compiled in 45ms
+[00:04:47.860] Server  LOG      ✓ Compiled in 39ms
+[00:04:52.340] Server  LOG      ✓ Compiled in 37ms
+[00:05:08.067] Server  LOG      ✓ Compiled in 33ms
+[00:06:19.848] Server  LOG      ✓ Compiled in 39ms
+[00:14:36.956] Server  LOG      ✓ Compiled in 54ms
+[00:14:49.501] Server  LOG      ✓ Compiled in 35ms
+[00:15:06.133] Server  LOG      ✓ Compiled in 36ms
+[00:16:15.304] Server  LOG      ✓ Compiled in 35ms
+[00:16:30.485] Server  LOG      ✓ Compiled in 38ms
+[00:16:52.883] Server  LOG      ✓ Compiled in 45ms
+[00:18:01.459] Server  LOG      ✓ Compiled in 47ms
+[00:22:32.564] Server  LOG      ✓ Compiled in 35ms
+[00:23:08.627] Server  LOG      ✓ Compiled in 32ms
+[00:23:42.304] Server  LOG      ✓ Compiled in 32ms
+[00:24:06.604] Server  LOG      ✓ Compiled in 39ms
+[00:24:41.013] Server  LOG      ✓ Compiled in 35ms
+[00:24:49.062] Server  LOG      ✓ Compiled in 50ms
+[00:24:50.261] Server  LOG      ✓ Compiled in 32ms
+[00:25:29.314] Server  LOG      ✓ Compiled in 57ms
+[00:28:57.482] Server  LOG      ✓ Compiled in 34ms
+[00:29:35.635] Server  LOG      ✓ Compiled in 36ms
+[00:29:57.474] Server  LOG      ✓ Compiled in 40ms
+[00:30:22.174] Server  LOG      ✓ Compiled in 34ms
+[00:30:47.490] Server  LOG      ✓ Compiled in 38ms
+[00:31:23.723] Server  LOG      ✓ Compiled in 45ms
+[00:32:12.247] Server  LOG      ✓ Compiled in 35ms
+[00:32:33.269] Server  LOG      ✓ Compiled in 34ms
+[00:32:52.673] Server  LOG      ✓ Compiled in 34ms
+[00:33:34.707] Server  LOG      ✓ Compiled in 33ms
+[00:35:53.150] Server  LOG      ✓ Compiled in 86ms
+[00:36:30.109] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768326103908}
+[00:41:49.435] Server  LOG      ✓ Compiled in 64ms
+[00:41:56.406] Server  LOG      ✓ Compiled in 37ms
+[00:41:58.175] Server  LOG      ✓ Compiled in 46ms
+[00:44:19.843] Server  LOG      ✓ Compiled in 80ms
+[00:45:17.500] Server  LOG      ✓ Compiled in 103ms
+[00:45:24.888] Server  LOG      ✓ Compiled in 91ms
+[00:45:34.351] Server  LOG      ✓ Compiled in 36ms
+[00:45:45.104] Server  LOG      ✓ Compiled in 114ms
+[00:45:51.338] Server  LOG      ✓ Compiled in 37ms
+[00:45:52.798] Server  LOG      ✓ Compiled in 33ms
+[00:46:44.829] Server  LOG      ✓ Compiled in 70ms
+[00:46:59.604] Server  LOG      ✓ Compiled in 39ms
+[00:47:08.019] Server  LOG      ✓ Compiled in 45ms
+[00:47:21.713] Server  LOG      ✓ Compiled in 39ms
+[00:52:33.223] Server  LOG      ✓ Compiled in 198ms
+[00:52:34.599] Server  LOG      ✓ Compiled in 129ms
+[00:55:03.609] Server  LOG      ✓ Compiled in 66ms
+[00:55:04.852] Server  LOG      ✓ Compiled in 194ms
+[00:57:46.568] Server  LOG      ✓ Compiled in 348ms
+[01:00:21.592] Server  LOG      ✓ Compiled in 61ms
+[01:00:27.523] Server  LOG      ✓ Compiled in 52ms
+[01:00:29.128] Server  LOG      ✓ Compiled in 90ms
+[01:01:02.325] Server  LOG      ✓ Compiled in 111ms
+[01:01:50.225] Server  LOG      ✓ Compiled in 122ms
+[01:01:51.082] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true text-right text-right true text-right
+[01:01:51.082] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true text-lg text-lg true text-lg
+[01:01:51.082] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true font-semibold font-semibold true font-semibold
+[01:01:51.082] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true relative relative true relative
+[01:01:51.083] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true right-125 right-125 true right-125
+[01:01:51.910] Server  LOG      ✓ Compiled in 99ms
+[01:01:54.059] Browser ERROR   ./app/page.tsx:442:50
+Parsing ecmascript source code failed
+  440 | <div className="mt-3 w-full pl-4">
+  441 |   <p className="text-right text-lg font-semibold relative right-125>
+> 442 |     <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+      |                                                  ^^^
+  443 |   </p>
+  444 | </div>
+  445 |
+
+Expected '</', got 'string literal (>, ">")'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:01:54.060] Browser ERROR   ./app/page.tsx:442:50
+Parsing ecmascript source code failed
+  440 | <div className="mt-3 w-full pl-4">
+  441 |   <p className="text-right text-lg font-semibold relative right-125>
+> 442 |     <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+      |                                                  ^^^
+  443 |   </p>
+  444 | </div>
+  445 |
+
+Expected '</', got 'string literal (>, ">")'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:01:54.060] Browser ERROR   ./app/page.tsx:442:50
+Parsing ecmascript source code failed
+  440 | <div className="mt-3 w-full pl-4">
+  441 |   <p className="text-right text-lg font-semibold relative right-125>
+> 442 |     <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+      |                                                  ^^^
+  443 |   </p>
+  444 | </div>
+  445 |
+
+Expected '</', got 'string literal (>, ">")'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:01:54.060] Browser ERROR   ./app/page.tsx:442:50
+Parsing ecmascript source code failed
+  440 | <div className="mt-3 w-full pl-4">
+  441 |   <p className="text-right text-lg font-semibold relative right-125>
+> 442 |     <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+      |                                                  ^^^
+  443 |   </p>
+  444 | </div>
+  445 |
+
+Expected '</', got 'string literal (>, ">")'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:01:56.072] Server  LOG      ✓ Compiled in 78ms
+[01:02:32.984] Server  LOG      ✓ Compiled in 54ms
+[01:02:34.068] Browser ERROR   ./app/page.tsx:441:68
+Parsing ecmascript source code failed
+  439 |  
+  440 | <div className="mt-3 w-full pl>
+> 441 |   <p className="text-right text-lg font-semibold relative right-125">
+      |                                                                    ^^
+  442 |     <span className="text-black text-xl font-bold">"pages containing paid services"</span>
+  443 |   </p>
+  444 | </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:02:36.877] Server  LOG      ✓ Compiled in 169ms
+[01:03:34.735] Server  LOG      ✓ Compiled in 209ms
+[01:15:23.181] Server  ERROR    ⨯ ./app/page.tsx:439:4
+Parsing ecmascript source code failed
+  437 |
+  438 | <div className="flex flex-col items-center mt-6">
+> 439 |   <!-- الزر الرئيسي -->
+      |    ^
+  440 |   <a
+  441 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  442 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:15:29.701] Browser ERROR   uncaughtError: Error: ./app/page.tsx:439:4
+Parsing ecmascript source code failed
+  437 |
+  438 | <div className="flex flex-col items-center mt-6">
+> 439 |   <!-- الزر الرئيسي -->
+      |    ^
+  440 |   <a
+  441 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  442 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:15:29.958] Browser ERROR   ./app/page.tsx:439:4
+Parsing ecmascript source code failed
+  437 |
+  438 | <div className="flex flex-col items-center mt-6">
+> 439 |   <!-- الزر الرئيسي -->
+      |    ^
+  440 |   <a
+  441 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  442 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:15:30.063] Browser ERROR   ./app/page.tsx:439:4
+Parsing ecmascript source code failed
+  437 |
+  438 | <div className="flex flex-col items-center mt-6">
+> 439 |   <!-- الزر الرئيسي -->
+      |    ^
+  440 |   <a
+  441 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  442 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:15:42.079] Browser ERROR   ./app/page.tsx:439:4
+Parsing ecmascript source code failed
+  437 |
+  438 | <div className="flex flex-col items-center mt-6">
+> 439 |   <!-- الزر الرئيسي -->
+      |    ^
+  440 |   <a
+  441 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  442 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:15:45.794] Server  LOG      ✓ Compiled in 43ms
+[01:15:49.257] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:49.257] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:15:49.257] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:15:49.257] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://automatic-memory-gxrxqv6q9x439rjv-3000.app.github.dev/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768328462869}
+[01:17:17.822] Server  LOG      ✓ Compiled in 107ms
+[01:17:25.029] Server  LOG      ✓ Compiled in 55ms
+[01:17:26.669] Server  LOG      ✓ Compiled in 70ms
+[01:17:52.345] Server  LOG      ✓ Compiled in 170ms
+[01:17:58.712] Server  LOG      ✓ Compiled in 65ms
+[01:22:36.474] Server  LOG      ✓ Compiled in 95ms
+[01:22:36.987] Browser ERROR   ./app/page.tsx:93:4
+Parsing ecmascript source code failed
+  91 |
+  92 | <div className="flex flex-col items-center -mt-2">
+> 93 |   <!-- الزر الرئيسي -->
+     |    ^
+  94 |   <a
+  95 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  96 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:22:45.085] Browser ERROR   ./app/page.tsx:93:4
+Parsing ecmascript source code failed
+  91 |
+  92 | <div className="flex flex-col items-center -mt-2">
+> 93 |   <!-- الزر الرئيسي -->
+     |    ^
+  94 |   <a
+  95 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  96 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:22:58.387] Server  LOG      ✓ Compiled in 79ms
+[01:23:57.781] Server  LOG      ✓ Compiled in 50ms
+[01:23:59.794] Server  LOG      ✓ Compiled in 94ms
+[01:24:00.886] Server  LOG      ✓ Compiled in 75ms
+[01:24:13.432] Server  LOG      ✓ Compiled in 57ms
+[01:24:15.883] Server  LOG      ✓ Compiled in 50ms
+[01:24:18.091] Server  LOG      ✓ Compiled in 51ms
+[01:24:19.652] Server  LOG      ✓ Compiled in 58ms
+[01:24:33.596] Server  LOG      ✓ Compiled in 76ms
+[01:24:34.932] Server  LOG      ✓ Compiled in 48ms
+[01:24:52.265] Server  LOG      ✓ Compiled in 52ms
+[01:24:54.125] Server  LOG      ✓ Compiled in 62ms
+[01:25:03.359] Server  LOG      ✓ Compiled in 73ms
+[01:25:22.969] Server  LOG      ✓ Compiled in 410ms
+[01:27:46.869] Server  LOG      ✓ Compiled in 210ms
+[01:27:49.807] Server  LOG      ✓ Compiled in 116ms
+[01:27:51.095] Browser ERROR   ./app/page.tsx:104:4
+Parsing ecmascript source code failed
+  102 |
+  103 | <div className="flex flex-col items-center -mt-6">
+> 104 |   <!-- الزر الرئيسي -->
+      |    ^
+  105 |   <a
+  106 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  107 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:54.077] Browser ERROR   ./app/page.tsx:104:4
+Parsing ecmascript source code failed
+  102 |
+  103 | <div className="flex flex-col items-center -mt-6">
+> 104 |   <!-- الزر الرئيسي -->
+      |    ^
+  105 |   <a
+  106 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  107 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:58.551] Server  LOG      ✓ Compiled in 82ms
+[01:28:10.778] Server  LOG      ✓ Compiled in 64ms
+[01:28:14.340] Server  LOG      ✓ Compiled in 121ms
+[01:28:16.436] Server  LOG      ✓ Compiled in 85ms
+[01:28:18.819] Server  LOG      ✓ Compiled in 47ms
+[01:28:19.081] Browser ERROR   ./app/page.tsx:103:4
+Parsing ecmascript source code failed
+  101 |
+  102 | <div className="flex flex-col items-center -mt-6">
+> 103 |   <!-- الزر الرئيسي -->
+      |    ^
+  104 |   <a
+  105 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  106 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:28:23.079] Browser ERROR   ./app/page.tsx:103:4
+Parsing ecmascript source code failed
+  101 |
+  102 | <div className="flex flex-col items-center -mt-6">
+> 103 |   <!-- الزر الرئيسي -->
+      |    ^
+  104 |   <a
+  105 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  106 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:28:25.252] Server  LOG      ✓ Compiled in 91ms
+[01:28:33.972] Server  LOG      ✓ Compiled in 53ms
+[01:28:40.380] Server  LOG      ✓ Compiled in 65ms
+[01:28:48.501] Server  LOG      ✓ Compiled in 46ms
+[01:30:37.410] Server  LOG      ✓ Compiled in 195ms
+[01:30:39.760] Server  LOG      ✓ Compiled in 117ms
+[01:30:40.087] Browser ERROR   ./app/page.tsx:102:4
+Parsing ecmascript source code failed
+  100 |
+  101 | <div className="flex flex-col items-center mt-6">
+> 102 |   <!-- الزر الرئيسي -->
+      |    ^
+  103 |   <a
+  104 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  105 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:45.083] Browser ERROR   ./app/page.tsx:102:4
+Parsing ecmascript source code failed
+  100 |
+  101 | <div className="flex flex-col items-center mt-6">
+> 102 |   <!-- الزر الرئيسي -->
+      |    ^
+  103 |   <a
+  104 |     href="https://v0-fitness-and-doctor-chat.vercel.app/"
+  105 |     target="_blank"
+
+Expected '</', got '!'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:48.300] Server  LOG      ✓ Compiled in 77ms
+[01:35:33.386] Server  LOG      ✓ Compiled in 79ms

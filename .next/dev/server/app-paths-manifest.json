@@ -1,10 +1,5 @@
 {
-  "/auth/login/page": "app/auth/login/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/dashboard/upload/page": "app/dashboard/upload/page.js",
-  "/meal-plans/page": "app/meal-plans/page.js",
-  "/messages/new/page": "app/messages/new/page.js",
-  "/messages/page": "app/messages/page.js",
-  "/page": "app/page.js",
-  "/pregnancy/page": "app/pregnancy/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/our_doctors/page": "app/dashboard/our_doctors/page.js",
+  "/page": "app/page.js"
 }
