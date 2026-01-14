@@ -149,7 +149,7 @@ function Header() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/nutrisense-fitness",
+                            href: "https://fitnessandhatting.vercel.app/nutrisense-fitness",
                             rel: "noopener noreferrer",
                             className: "inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer",
                             children: "Fitness"
@@ -159,7 +159,7 @@ function Header() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/chat",
+                            href: "https://fitnessandhatting.vercel.app/chat",
                             rel: "noopener noreferrer",
                             className: "inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer",
                             children: "Chat"
@@ -609,7 +609,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/nutrisense-fitness",
+                                                href: "https://fitnessandhatting.vercel.app/nutrisense-fitness",
                                                 className: "text-muted-foreground hover:text-primary transition-colors",
                                                 children: "Athletes & Fitness"
                                             }, void 0, false, {
@@ -624,7 +624,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/chat",
+                                                href: "https://fitnessandhatting.vercel.app/chat",
                                                 className: "text-muted-foreground hover:text-primary transition-colors",
                                                 children: "Doctor Chat"
                                             }, void 0, false, {
@@ -730,7 +730,7 @@ function Footer() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-sm text-muted-foreground , text-center mt-4",
-                    children: "Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh"
+                    children: "Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawaghreh"
                 }, void 0, false, {
                     fileName: "[project]/components/footer.tsx",
                     lineNumber: 82,
@@ -755,7 +755,8 @@ function Footer() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-sm mt-2",
                     children: [
-                        "Data Source: ",
+                        "Data Source:",
+                        " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "https://physionet.org/",
                             target: "_blank",
@@ -763,28 +764,47 @@ function Footer() {
                             children: "https://physionet.org/"
                         }, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
-                            lineNumber: 98,
-                            columnNumber: 16
+                            lineNumber: 105,
+                            columnNumber: 3
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
-                            lineNumber: 98,
-                            columnNumber: 113
+                            lineNumber: 112,
+                            columnNumber: 3
                         }, this),
-                        "Contact: ",
+                        "Contact: Gmail:",
+                        " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "mailto:NutriSense.2025@gmail.com",
+                            href: "mailto:nutrisense.2025@gmail.com",
                             className: "underline",
                             children: "NutriSense.2025@gmail.com"
                         }, void 0, false, {
                             fileName: "[project]/components/footer.tsx",
-                            lineNumber: 99,
-                            columnNumber: 12
+                            lineNumber: 114,
+                            columnNumber: 3
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/components/footer.tsx",
+                            lineNumber: 120,
+                            columnNumber: 3
+                        }, this),
+                        "Instagram:",
+                        " ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://www.instagram.com/nutrisense_jo/",
+                            className: "underline",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: "nutrisense_jo"
+                        }, void 0, false, {
+                            fileName: "[project]/components/footer.tsx",
+                            lineNumber: 122,
+                            columnNumber: 3
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/footer.tsx",
-                    lineNumber: 97,
+                    lineNumber: 103,
                     columnNumber: 1
                 }, this)
             ]
@@ -1008,12 +1028,12 @@ function HomePage() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "#features",
+                                            href: "/dashboard/our_doctors",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                 size: "lg",
                                                 variant: "outline",
                                                 className: "w-full sm:w-auto bg-transparent",
-                                                children: "Explore Features"
+                                                children: "Doctors & Coatches"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 79,
@@ -1044,7 +1064,7 @@ function HomePage() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col items-center mt-6",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/",
+                            href: "https://fitnessandhatting.vercel.app/",
                             target: "_blank",
                             rel: "noopener noreferrer",
                             className: "bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-bold text-lg px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300",
@@ -1085,7 +1105,7 @@ function HomePage() {
                             lineNumber: 140,
                             columnNumber: 44
                         }, this),
-                        "Eman Al-Afeef, and Sadeen Dawagreh"
+                        "Eman Al-Afeef, and Sadeen Dawaghreh"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
@@ -1777,7 +1797,7 @@ function HomePage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mt-2 text-sm text-muted-foreground",
-                                        children: "Active Users"
+                                        children: 'Active Users "Targeting"'
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 342,
@@ -2249,7 +2269,7 @@ function HomePage() {
                             children: "Join thousands of users who trust NutriSense for their nutrition and health management"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 484,
+                            lineNumber: 485,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2260,12 +2280,12 @@ function HomePage() {
                                 children: "Get Started Today"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 488,
+                                lineNumber: 493,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 487,
+                            lineNumber: 492,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2281,7 +2301,7 @@ function HomePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 495,
+                lineNumber: 505,
                 columnNumber: 7
             }, this)
         ]

@@ -18,11 +18,11 @@ const doctors = [
     {
         id: 1,
         name: "Dr. Shatha Abu Hamda",
-        specialty: "Gynecologist",
+        specialty: "Psychiatrist",
         phone: "0790479747-0772699665-07672699665-065658402",
         clinic: "Shmeisani – مقابل المستشفى التخصصي – شارع جابر بن حيان – عمارة رقم 56، عمان, الأردن",
         license: "Head of Female Psychiatry Unit in Al Taif MOH; Psychiatrist of Child Psychiatry Clinic in General Pediatrics.",
-        image: "/shatha2.png",
+        image: "/shatha.jpg",
         about: "head of female psychiatry unit in (Al Taif MOH Psychiatrist of child psychiatry clinic in general pediatric hospital ( Al Taif MOH ) Assistant head of acute care unit team in general psychiatry Consultant psychiatrist at Motmaena clinical center"
     },
     {
@@ -32,17 +32,17 @@ const doctors = [
         phone: "065001616",
         clinic: "Fifth Circle : kamal junblat street",
         license: "Senior Specialist in Internal Medicine, MBBS, Certificate of High Specialization",
-        image: "/hamzah2.png",
+        image: "/hamzah.jpg",
         about: "Hamzah Hayel, MD Senior Specialist Internal medicine. MBBS, Certificate of High Specialization (Board) In Internal Medicine, Member of American college of physicians, JMOH-DHA-QCHP-NHRA, Member of European federation-Internal medicine."
     },
     {
         id: 3,
-        name: "Dr. Muhanad Albattat",
-        specialty: "Gynecologist",
-        phone: "065001616",
-        clinic: "Istiklal Street and Nuzha : Saadi Akash street",
-        license: "Licensed Gynecologist with experience in advanced women’s health procedures",
-        image: "/muhanad2.png",
+        name: "Coatch Ahmad Zaarer",
+        specialty: "Fitness",
+        phone: "0791819010",
+        clinic: "gym:Ayass fitness Amman almadina al monwarah street",
+        license: "Email : Azaarer@yahoo.com",
+        image: "/coatch2.jpg",
         about: "Dr. Mohammad Khaled is an orthopedic surgeon with a strong background in joint replacement and sports injuries. He focuses on minimally invasive surgical techniques and rehabilitation."
     },
     {
@@ -52,7 +52,7 @@ const doctors = [
         phone: "+962 790 688 8790 - +962 770 418 500",
         clinic: "عمان – شارع الخالدي / شارع ابن خلدون – مجمع الحياة الطبي – مبنى رقم 40 – الطابق الأول، عمان، الأردن",
         license: "Consultant Gynecologist & Obstetrician, IVF & ART, Hysteroscopy and Laparoscopic Gynecology",
-        image: "/nisren2.png",
+        image: "/nisren.jpg",
         about: "ConsultantGynecologist & obstetrician IVF & ART Hysterscopy and laparoscopic gynecology Urinary incontinece & TOT Vaginal repair"
     },
     {
@@ -62,7 +62,7 @@ const doctors = [
         phone: "07 9608 0051 رقم العيادة",
         clinic: "شارع الجاردنز – مقابل مستشفى الجاردنز – مجمع كومبيو جوردان – عمارة رقم 89 – الطابق الأول – مكتب 101 (Amman)",
         license: "Jordanian Board in Internal Medicine, Fellowship in Cardiology, University of Jordan",
-        image: "/malek2.png",
+        image: "/malek.jpg",
         about: "Jordanian board in internal medicine Fellowship in cardiology- university of Jordan Bachelor degree general Medicine and surgery - university of Jordan Internist in prince hamzeh hospital previously Member in Jordanian cardiologists society"
     },
     {
@@ -72,7 +72,7 @@ const doctors = [
         phone: "+962 770 418 500",
         clinic: "عمّان – الدوار الخامس (Fifth Circle)، شارع سليمان الحديدي، مجمع جميعان – الطابق الأول (Clinic Jumian Complex)",
         license: "Jordanian Board in Psychiatry, MBBS, Retired Major General",
-        image: "/amjad2.png",
+        image: "/amjad.jpg.png",
         about: "Dr Amjad is a retired Major General MBBS university Jordan Jordanian board in Psychiatry and Iranian board in Child Psychiatry Member and fellow of Royal College of Psychiatrists UK MRCPSYCH FRCPSYCH and licensed to practice child psychiatry in Jordan DCPsychDiploma in Child Psychiatry London postgrad Cert child family MH Clinical Doctorate in Child Adolescent Psychiatry Exp 35 years and 5 years in the UK Founder of first child clinics in Jordan X Head psychiatry department at RMS Jordan"
     },
     {
@@ -82,7 +82,7 @@ const doctors = [
         phone: "0795361691",
         clinic: "Khilda : Khalda main street",
         license: "Specialist in Ophthalmology and Laser Vision Correction, Jordanian Board of Ophthalmology, FICO FRCS.",
-        image: "/osama2.png",
+        image: "/osama.jpg",
         about: "Specialist in ophthalmology and laser vision correction Jordanian Board of Ophthalmology FICO FRCS (ED) MRCS (ED) Member of the American Society of Eye Surgeons."
     },
     {
@@ -92,17 +92,17 @@ const doctors = [
         phone: "065001616",
         clinic: "عمّان – مكة وأمّ السُمّاق – مبنى الحَجّوج / Amer bin Malik Building",
         license: "General Surgeon, Specialized in Adult Thoracic, Abdominal, and Endocrinal Surgery",
-        image: "/riyad2.png",
+        image: "/raid.jpg",
         about: "General Surgeon Specialized in Adult Thoracic Surgery, Abdominal Surgery, Endocrinal Surgery , Adult Gastroenterological Surgery , Adult Oncology Surgery, Brain Tumor, Breast Tumor, Adult Urology Surgery and Adult General Surgery"
     },
     {
         id: 9,
         name: "Dr. Susanna Haddad",
-        specialty: "dietitian for reducing weight and special illness cases",
+        specialty: "Nutrition , dietitian for reducing weight and special illness cases",
         phone: "07 9964 4121",
         clinic: "Specialist Former Head of Nutrition Department",
         license: "Doctorate of Clinical Nutrition, Britain; European Board in Clinical Diet Compliance",
-        image: "/susanna2.png",
+        image: "/sunna.jpg",
         about: "Doctorate of Clinical nutrition, Britain European board in compliance medicine of clinical diets and nutrition therapy Programs for all illness cases Programs for reducing and gaining weight for all ages Kids nutrition sport nutrition"
     }
 ];
@@ -122,7 +122,7 @@ function OurDoctorsPage() {
                             children: "Medical Team"
                         }, void 0, false, {
                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                            lineNumber: 106,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -130,13 +130,13 @@ function OurDoctorsPage() {
                             children: "A trusted team of certified doctors providing professional and ethical medical care. All specialists are fully licensed and verified."
                         }, void 0, false, {
                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                            lineNumber: 109,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                    lineNumber: 105,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -153,12 +153,12 @@ function OurDoctorsPage() {
                                         className: "object-cover group-hover:scale-105 transition-transform duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 129,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 128,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -171,7 +171,7 @@ function OurDoctorsPage() {
                                                     children: doctor.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 140,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -179,13 +179,13 @@ function OurDoctorsPage() {
                                                     children: doctor.specialty
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 139,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -198,7 +198,7 @@ function OurDoctorsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                                    lineNumber: 144,
+                                                    lineNumber: 149,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -208,13 +208,13 @@ function OurDoctorsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                                    lineNumber: 145,
+                                                    lineNumber: 150,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 148,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -225,7 +225,7 @@ function OurDoctorsPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 153,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -238,41 +238,41 @@ function OurDoctorsPage() {
                                                     children: expanded === doctor.id ? "Less" : "More"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 166,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                            lineNumber: 153,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, doctor.id, true, {
                             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                            lineNumber: 118,
+                            lineNumber: 123,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-                    lineNumber: 116,
+                    lineNumber: 121,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-            lineNumber: 103,
+            lineNumber: 108,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/dashboard/our_doctors/page.tsx",
-        lineNumber: 102,
+        lineNumber: 107,
         columnNumber: 5
     }, this);
 }

@@ -6,11 +6,11 @@ const doctors = [
   {
     id: 1,
     name: "Dr. Shatha Abu Hamda",
-    specialty: "Gynecologist",
+    specialty: "Psychiatrist",
     phone: "0790479747-0772699665-07672699665-065658402",
     clinic: "Shmeisani – مقابل المستشفى التخصصي – شارع جابر بن حيان – عمارة رقم 56، عمان, الأردن",
     license: "Head of Female Psychiatry Unit in Al Taif MOH; Psychiatrist of Child Psychiatry Clinic in General Pediatrics.",
-    image: "/shatha2.png",
+    image: "/shatha.jpg",
     about: "head of female psychiatry unit in (Al Taif MOH Psychiatrist of child psychiatry clinic in general pediatric hospital ( Al Taif MOH ) Assistant head of acute care unit team in general psychiatry Consultant psychiatrist at Motmaena clinical center"
   },
   {
@@ -20,17 +20,17 @@ const doctors = [
     phone: "065001616",
     clinic: "Fifth Circle : kamal junblat street",
     license: "Senior Specialist in Internal Medicine, MBBS, Certificate of High Specialization",
-    image: "/hamzah2.png",
+    image: "/hamzah.jpg",
     about: "Hamzah Hayel, MD Senior Specialist Internal medicine. MBBS, Certificate of High Specialization (Board) In Internal Medicine, Member of American college of physicians, JMOH-DHA-QCHP-NHRA, Member of European federation-Internal medicine."
   },
   {
     id: 3,
-    name: "Dr. Muhanad Albattat",
-    specialty: "Gynecologist",
-    phone: "065001616",
-    clinic: "Istiklal Street and Nuzha : Saadi Akash street",
-    license: "Licensed Gynecologist with experience in advanced women’s health procedures",
-    image: "/muhanad2.png",
+    name: "Coatch Ahmad Zaarer",
+    specialty: "Fitness",
+    phone: "0791819010",
+    clinic: "gym:Ayass fitness Amman almadina al monwarah street",
+    license: "Email : Azaarer@yahoo.com",
+    image: "/coatch2.jpg",
     about: "Dr. Mohammad Khaled is an orthopedic surgeon with a strong background in joint replacement and sports injuries. He focuses on minimally invasive surgical techniques and rehabilitation."
   },
   {
@@ -40,7 +40,7 @@ const doctors = [
     phone: "+962 790 688 8790 - +962 770 418 500",
     clinic: "عمان – شارع الخالدي / شارع ابن خلدون – مجمع الحياة الطبي – مبنى رقم 40 – الطابق الأول، عمان، الأردن",
     license: "Consultant Gynecologist & Obstetrician, IVF & ART, Hysteroscopy and Laparoscopic Gynecology",
-    image: "/nisren2.png",
+    image: "/nisren.jpg",
     about: "ConsultantGynecologist & obstetrician IVF & ART Hysterscopy and laparoscopic gynecology Urinary incontinece & TOT Vaginal repair"
   },
   {
@@ -50,7 +50,7 @@ const doctors = [
     phone: "07 9608 0051 رقم العيادة",
     clinic: "شارع الجاردنز – مقابل مستشفى الجاردنز – مجمع كومبيو جوردان – عمارة رقم 89 – الطابق الأول – مكتب 101 (Amman)",
     license: "Jordanian Board in Internal Medicine, Fellowship in Cardiology, University of Jordan",
-    image: "/malek2.png",
+    image: "/malek.jpg",
     about: "Jordanian board in internal medicine Fellowship in cardiology- university of Jordan Bachelor degree general Medicine and surgery - university of Jordan Internist in prince hamzeh hospital previously Member in Jordanian cardiologists society"
   },
   {
@@ -60,7 +60,7 @@ const doctors = [
     phone: "+962 770 418 500",
     clinic: "عمّان – الدوار الخامس (Fifth Circle)، شارع سليمان الحديدي، مجمع جميعان – الطابق الأول (Clinic Jumian Complex)",
     license: "Jordanian Board in Psychiatry, MBBS, Retired Major General",
-    image: "/amjad2.png",
+    image: "/amjad.jpg.png",
     about: "Dr Amjad is a retired Major General MBBS university Jordan Jordanian board in Psychiatry and Iranian board in Child Psychiatry Member and fellow of Royal College of Psychiatrists UK MRCPSYCH FRCPSYCH and licensed to practice child psychiatry in Jordan DCPsychDiploma in Child Psychiatry London postgrad Cert child family MH Clinical Doctorate in Child Adolescent Psychiatry Exp 35 years and 5 years in the UK Founder of first child clinics in Jordan X Head psychiatry department at RMS Jordan"
   },
   {
@@ -70,7 +70,7 @@ const doctors = [
     phone: "0795361691",
     clinic: "Khilda : Khalda main street",
     license: "Specialist in Ophthalmology and Laser Vision Correction, Jordanian Board of Ophthalmology, FICO FRCS.",
-    image: "/osama2.png",
+    image: "/osama.jpg",
     about: "Specialist in ophthalmology and laser vision correction Jordanian Board of Ophthalmology FICO FRCS (ED) MRCS (ED) Member of the American Society of Eye Surgeons."
   },
   {
@@ -80,17 +80,22 @@ const doctors = [
     phone: "065001616",
     clinic: "عمّان – مكة وأمّ السُمّاق – مبنى الحَجّوج / Amer bin Malik Building",
     license: "General Surgeon, Specialized in Adult Thoracic, Abdominal, and Endocrinal Surgery",
-    image: "/riyad2.png",
+    image: "/raid.jpg",
     about: "General Surgeon Specialized in Adult Thoracic Surgery, Abdominal Surgery, Endocrinal Surgery , Adult Gastroenterological Surgery , Adult Oncology Surgery, Brain Tumor, Breast Tumor, Adult Urology Surgery and Adult General Surgery"
   },
+
+
+
+
+
   {
     id: 9,
     name: "Dr. Susanna Haddad",
-    specialty: "dietitian for reducing weight and special illness cases",
+    specialty: "Nutrition , dietitian for reducing weight and special illness cases",
     phone: "07 9964 4121",
     clinic: "Specialist Former Head of Nutrition Department",
     license: "Doctorate of Clinical Nutrition, Britain; European Board in Clinical Diet Compliance",
-    image: "/susanna2.png",
+    image: "/sunna.jpg",
     about: "Doctorate of Clinical nutrition, Britain European board in compliance medicine of clinical diets and nutrition therapy Programs for all illness cases Programs for reducing and gaining weight for all ages Kids nutrition sport nutrition"
   }
 ]

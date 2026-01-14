@@ -46,12 +46,12 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/nutrisense-fitness" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://fitnessandhatting.vercel.app/nutrisense-fitness" className="text-muted-foreground hover:text-primary transition-colors">
                   Athletes & Fitness
                 </Link>
               </li>
               <li>
-                <Link href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/chat" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://fitnessandhatting.vercel.app/chat" className="text-muted-foreground hover:text-primary transition-colors">
                   Doctor Chat
                 </Link>
               </li>
@@ -80,7 +80,7 @@ export function Footer() {
         </div>
 
         <p className="text-sm text-muted-foreground , text-center mt-4">
-          Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawagreh</p>
+          Built by: Shahed Nazzal & Nebal Al-Asad & Eman Al-Afeef & Sadeen Dawaghreh</p>
         
 
        <p className="text-sm text-muted-foreground leading-relaxed">
@@ -94,10 +94,41 @@ export function Footer() {
     ⚠️ You may be required to pay inside Fitness&Chat page
   </p>
 
+
+
+
+
+
+
 <p className="text-sm mt-2">
-  Data Source: <a href="https://physionet.org/" target="_blank" className="underline">https://physionet.org/</a><br />
-  Contact: <a href="mailto:NutriSense.2025@gmail.com" className="underline">NutriSense.2025@gmail.com</a>
+  Data Source:{" "}
+  <a
+    href="https://physionet.org/"
+    target="_blank"
+    className="underline"
+  >
+    https://physionet.org/
+  </a>
+  <br />
+  Contact: Gmail:{" "}
+  <a
+    href="mailto:nutrisense.2025@gmail.com"
+    className="underline"
+  >
+    NutriSense.2025@gmail.com
+  </a>
+  <br />
+  Instagram:{" "}
+  <a
+    href="https://www.instagram.com/nutrisense_jo/"
+    className="underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    nutrisense_jo
+  </a>
 </p>
+
 
 
 

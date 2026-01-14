@@ -62,7 +62,7 @@ export function Header() {
             
 
             <Link
-  href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/nutrisense-fitness"
+  href="https://fitnessandhatting.vercel.app/nutrisense-fitness"
   
   rel="noopener noreferrer"
   className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer"
@@ -75,7 +75,7 @@ export function Header() {
 
 
      <Link
-  href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/chat"
+  href="https://fitnessandhatting.vercel.app/chat"
   
   rel="noopener noreferrer"
   className="inline-block text-sm font-medium text-foreground border border-slate-300 rounded px-3 py-1 hover:border-teal-500 hover:text-teal-600 transition-colors duration-300 cursor-pointer"

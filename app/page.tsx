@@ -75,9 +75,9 @@ const router = useRouter()
 
 
               </Link>
-              <Link href="#features">
+              <Link href="/dashboard/our_doctors">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
-                  Explore Features
+                  Doctors & Coatches
                 </Button>
               </Link>
 
@@ -101,7 +101,7 @@ const router = useRouter()
 <div className="flex flex-col items-center mt-6">
  
   <a
-    href="https://fitnesschatting-5kff4eyqk-shahednazzal26-3718s-projects.vercel.app/"
+    href="https://fitnessandhatting.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white font-bold text-lg px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
@@ -138,7 +138,7 @@ const router = useRouter()
 <div className="mt-3 w-full pl-4">
   <p className="text-sm text-muted-foreground text-left">
     Built by Shahed Nazzal, Nebal Al-Asad, <br />
-    Eman Al-Afeef, and Sadeen Dawagreh
+    Eman Al-Afeef, and Sadeen Dawaghreh
   </p>
 </div>
 
@@ -339,7 +339,7 @@ const router = useRouter()
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">10K+</div>
-              <div className="mt-2 text-sm text-muted-foreground">Active Users</div>
+              <div className="mt-2 text-sm text-muted-foreground">Active Users "Targeting"</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">500+</div>
@@ -481,14 +481,24 @@ const router = useRouter()
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Health?</h2>
+          
           <p className="text-lg mb-8 opacity-90">
             Join thousands of users who trust NutriSense for their nutrition and health management
           </p>
+
+          
+
+
           <Link href="/auth/register">
             <Button size="lg" variant="secondary">
               Get Started Today
             </Button>
           </Link>
+
+
+
+
+
         </div>
       </section>
 
